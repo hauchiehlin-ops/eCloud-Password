@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "6UJ8GS752W.com.privatevault.app",
+        "paths": ["*"]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "YOUR_TEAM_ID.com.privatevault.app"
+    ]
+  }
+}

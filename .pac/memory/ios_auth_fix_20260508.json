@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-05-08T17:01:40",
+  "issue": "iOS Google Sign-in failure and sync stall",
+  "root_cause": "Missing openid scope, offlineAccess disabled, and lack of forceCodeForRefreshToken leading to invalid or missing refresh tokens on iOS.",
+  "solution": "Updated configuration to include openid, enabled offlineAccess, and added forceCodeForRefreshToken. Refactored authenticate() to handle error codes and ensure token persistence.",
+  "files_affected": ["apps/mobile/src/providers/MobileGoogleDriveSyncProvider.ts"]
+}

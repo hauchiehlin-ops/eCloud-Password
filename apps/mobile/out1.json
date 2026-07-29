@@ -1,0 +1,348 @@
+[Object: null prototype] {
+  [32m'expo-document-picker'[39m: {
+    name: [32m'expo-document-picker'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-document-picker'[39m,
+    version: [32m'14.0.8'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m ],
+        apple: { modules: [ [32m'DocumentPickerModule'[39m ] },
+        android: {
+          modules: [ [32m'expo.modules.documentpicker.DocumentPickerModule'[39m ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.documentpicker'[39m,
+            version: [32m'14.0.8'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-file-system'[39m: {
+    name: [32m'expo-file-system'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-file-system'[39m,
+    version: [32m'19.0.22'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m ],
+        apple: {
+          modules: [ [32m'FileSystemModule'[39m, [32m'FileSystemLegacyModule'[39m ],
+          appDelegateSubscribers: [ [32m'FileSystemBackgroundSessionHandler'[39m ]
+        },
+        android: {
+          modules: [
+            [32m'expo.modules.filesystem.FileSystemModule'[39m,
+            [32m'expo.modules.filesystem.legacy.FileSystemLegacyModule'[39m
+          ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.filesystem'[39m,
+            version: [32m'19.0.22'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-local-authentication'[39m: {
+    name: [32m'expo-local-authentication'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-local-authentication'[39m,
+    version: [32m'17.0.8'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m ],
+        apple: { modules: [ [32m'LocalAuthenticationModule'[39m ] },
+        android: {
+          modules: [
+            [32m'expo.modules.localauthentication.LocalAuthenticationModule'[39m
+          ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.localauthentication'[39m,
+            version: [32m'17.0.8'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-print'[39m: {
+    name: [32m'expo-print'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-print'[39m,
+    version: [32m'15.0.8'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m ],
+        apple: { modules: [ [32m'ExpoPrintModule'[39m ] },
+        android: {
+          modules: [ [32m'expo.modules.print.PrintModule'[39m ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.print'[39m,
+            version: [32m'15.0.8'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-secure-store'[39m: {
+    name: [32m'expo-secure-store'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-secure-store'[39m,
+    version: [32m'15.0.8'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m ],
+        apple: { modules: [ [32m'SecureStoreModule'[39m ] },
+        android: {
+          modules: [ [32m'expo.modules.securestore.SecureStoreModule'[39m ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.securestore'[39m,
+            version: [32m'15.0.8'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-sharing'[39m: {
+    name: [32m'expo-sharing'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-sharing'[39m,
+    version: [32m'14.0.8'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m ],
+        apple: { modules: [ [32m'SharingModule'[39m ] },
+        android: {
+          modules: [ [32m'expo.modules.sharing.SharingModule'[39m ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.sharing'[39m,
+            version: [32m'14.0.8'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-splash-screen'[39m: {
+    name: [32m'expo-splash-screen'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-splash-screen'[39m,
+    version: [32m'31.0.13'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m ],
+        apple: {
+          modules: [ [32m'SplashScreenModule'[39m ],
+          appDelegateSubscribers: [ [32m'SplashScreenAppDelegateSubscriber'[39m ]
+        },
+        android: {
+          modules: [ [32m'expo.modules.splashscreen.SplashScreenModule'[39m ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.splashscreen'[39m,
+            version: [32m'31.0.13'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-web-browser'[39m: {
+    name: [32m'expo-web-browser'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-web-browser'[39m,
+    version: [32m'15.0.11'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m ],
+        apple: { modules: [ [32m'WebBrowserModule'[39m ] },
+        android: {
+          modules: [ [32m'expo.modules.webbrowser.WebBrowserModule'[39m ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.webbrowser'[39m,
+            version: [32m'15.0.11'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-application'[39m: {
+    name: [32m'expo-application'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-application'[39m,
+    version: [32m'7.0.8'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m, [32m'web'[39m ],
+        apple: { modules: [ [32m'ApplicationModule'[39m ] },
+        android: {
+          modules: [ [32m'expo.modules.application.ApplicationModule'[39m ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.application'[39m,
+            version: [32m'7.0.8'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-constants'[39m: {
+    name: [32m'expo-constants'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-constants'[39m,
+    version: [32m'18.0.13'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m, [32m'web'[39m ],
+        apple: { modules: [ [32m'ConstantsModule'[39m ] },
+        android: { modules: [ [32m'expo.modules.constants.ConstantsModule'[39m ] }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-crypto'[39m: {
+    name: [32m'expo-crypto'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-crypto'[39m,
+    version: [32m'15.0.9'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m ],
+        apple: { modules: [ [32m'CryptoModule'[39m ] },
+        android: {
+          modules: [ [32m'expo.modules.crypto.CryptoModule'[39m ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.crypto'[39m,
+            version: [32m'15.0.9'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-linking'[39m: {
+    name: [32m'expo-linking'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-linking'[39m,
+    version: [32m'8.0.12'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m, [32m'web'[39m ],
+        apple: {
+          modules: [ [32m'ExpoLinkingModule'[39m ],
+          appDelegateSubscribers: [ [32m'LinkingAppDelegateSubscriber'[39m ]
+        },
+        android: {
+          modules: [ [32m'expo.modules.linking.ExpoLinkingModule'[39m ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.linking'[39m,
+            version: [32m'8.0.12'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-asset'[39m: {
+    name: [32m'expo-asset'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-asset'[39m,
+    version: [32m'12.0.13'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m, [32m'web'[39m ],
+        apple: { modules: [ [32m'AssetModule'[39m ] },
+        android: {
+          modules: [ [32m'expo.modules.asset.AssetModule'[39m ],
+          publication: {
+            groupId: [32m'expo.modules.asset'[39m,
+            artifactId: [32m'expo.modules.asset'[39m,
+            version: [32m'12.0.13'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-font'[39m: {
+    name: [32m'expo-font'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-font'[39m,
+    version: [32m'14.0.11'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m, [32m'web'[39m ],
+        apple: { modules: [ [32m'FontLoaderModule'[39m, [32m'FontUtilsModule'[39m ] },
+        android: {
+          modules: [
+            [32m'expo.modules.font.FontLoaderModule'[39m,
+            [32m'expo.modules.font.FontUtilsModule'[39m
+          ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.font'[39m,
+            version: [32m'14.0.11'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-keep-awake'[39m: {
+    name: [32m'expo-keep-awake'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-keep-awake'[39m,
+    version: [32m'15.0.8'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m ],
+        apple: { modules: [ [32m'KeepAwakeModule'[39m ] },
+        android: {
+          modules: [ [32m'expo.modules.keepawake.KeepAwakeModule'[39m ],
+          publication: {
+            groupId: [32m'host.exp.exponent'[39m,
+            artifactId: [32m'expo.modules.keepawake'[39m,
+            version: [32m'15.0.8'[39m,
+            repository: [32m'local-maven-repo'[39m
+          }
+        }
+      }
+    },
+    duplicates: []
+  },
+  [32m'expo-modules-core'[39m: {
+    name: [32m'expo-modules-core'[39m,
+    path: [32m'/Users/barretlin/GitProjects/Cloud-password/node_modules/expo-modules-core'[39m,
+    version: [32m'3.0.30'[39m,
+    config: ExpoModuleConfig {
+      rawConfig: {
+        platforms: [ [32m'apple'[39m, [32m'android'[39m ],
+        apple: { podspecPath: [32m'./ExpoModulesCore.podspec'[39m },
+        android: {
+          gradlePlugins: [
+            {
+              id: [32m'expo-module-gradle-plugin'[39m,
+              group: [32m'expo.modules'[39m,
+              sourceDir: [32m'expo-module-gradle-plugin'[39m,
+              applyToRootProject: [33mfalse[39m
+            }
+          ]
+        }
+      }
+    },
+    duplicates: []
+  }
+}

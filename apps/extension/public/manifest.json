@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "Cloud Password",
+  "version": "1.0.0",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4en/yetF4eKuJf/8VzFXc5FXzWyEgzQD3Q9TPuVHqARKMkfDzuXYzS+BIj11qdFBYGCrsMVfmzwPYy5Y+Wwq2WCl2KB1HN6pJ61galCZa7Qzg7T18f/yLMJz8B5CMDUEGjHdywv53RQ7eF6qO3iBdjRwYugSAxOJ5r7QWMwiPqFLi4Ne7O3BQLS0JcZZMElU/H+RA15/xvGRxl50mvmHntO0GNd1eGP1vqfunwtAX3Nw4z7PP85mc18naT4X4xBcSzvmS8rjaf7kHhOZGA1lZY8F1ZrcogML7sTY+r3yAADibOppTNhxsyom4/F2qOgG3pqxyQG38axxFBdwSuJCSwIDAQAB",
+  "description": "Zero-Knowledge Password Manager",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "identity"
+  ],
+  "host_permissions": [
+    "https://*.googleapis.com/"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "oauth2": {
+    "client_id": "39865597076-ig8r231pquboqnsdck1c0dqs3qs8thfa.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive.appdata"
+    ]
+  }
+}

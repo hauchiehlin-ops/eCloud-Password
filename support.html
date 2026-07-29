@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Cloud Password</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #e0e0e0;
+            background-color: #000;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #111;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #333;
+        }
+        h1 { color: #ffd700; border-bottom: 2px solid #ffd700; padding-bottom: 10px; font-size: 1.8em; }
+        h2 { color: #ffd700; margin-top: 30px; font-size: 1.2em; }
+        p, li { color: #bbb; font-size: 0.95em; }
+        .faq-item {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #222;
+        }
+        .faq-question {
+            color: #4dabf7;
+            font-weight: bold;
+            font-size: 1.05em;
+        }
+        .faq-answer {
+            margin-top: 5px;
+            color: #ccc;
+        }
+        .footer { margin-top: 50px; text-align: center; font-size: 0.8em; color: #666; }
+        .highlight { color: #ffd700; font-weight: bold; }
+        .lang-switch { margin-bottom: 20px; text-align: right; }
+        select { background: #222; color: #fff; border: 1px solid #444; padding: 5px; border-radius: 4px; }
+        .contact-info {
+            background-color: #1a1a1a;
+            border-left: 4px solid #ffd700;
+            padding: 15px;
+            margin-top: 25px;
+            border-radius: 0 8px 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <select id="langSelect" onchange="switchLang(this.value)">
+                <option value="en">English</option>
+                <option value="zh-TW">繁體中文</option>
+                <option value="zh-CN">简体中文</option>
+                <option value="ja">日本語</option>
+                <option value="ko">한국어</option>
+                <option value="de">Deutsch</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+        <div id="content">
+            <!-- Content will be injected here -->
+        </div>
+        <div class="footer">
+            &copy; 2026 Cloud Password Team. All rights reserved.
+        </div>
+    </div>
+
+    <script>
+        const translations = {
+            'en': {
+                title: 'Customer Support',
+                intro: 'Welcome to Cloud Password Support page. We are committed to providing you with a secure and seamless password management experience.',
+                contact_t: 'Contact Us',
+                contact_d: 'If you have any questions or require technical assistance, please contact us via email. Our team will respond as soon as possible.',
+                email: 'Support Email: <span class="highlight">dr.barret.lin@gmail.com</span>',
+                faq_t: 'Frequently Asked Questions (FAQ)',
+                faq: [
+                    {
+                        q: 'How does cloud sync work in Cloud Password?',
+                        a: 'Cloud Password uses a Zero-Knowledge architecture via Google Drive to sync your vault data. All encryption and conflict resolution (LWW algorithm) are executed locally on your device. We never have access to your data or Master Key.'
+                    },
+                    {
+                        q: 'What should I do if I forget my Master Key?',
+                        a: 'Due to our strict Zero-Knowledge design, we do not store your Master Key on any server. If you forget your Master Key, we cannot recover it, and you will lose access to your stored passwords and cards. Please keep your Master Key safe.'
+                    },
+                    {
+                        q: 'Is my credit card information secure?',
+                        a: 'Yes. All cards and credentials are encrypted locally using military-grade AES-256-GCM encryption before being saved. Decryption is only possible on your local device.'
+                    },
+                    {
+                        q: 'What is the Self-Healing Repair tool?',
+                        a: 'If you encounter login errors due to key derivation block drift or system environments, you can navigate to the Diagnostic Center within the Settings menu and run the Self-Healing Repair tool to dynamically recalibrate validation parameters.'
+                    }
+                ]
+            },
+            'zh-TW': {
+                title: '客戶支援服務',
+                intro: '歡迎使用 Cloud Password 客戶支援頁面。我們致力於為您提供安全、流暢的密碼管理體驗。',
+                contact_t: '聯絡我們',
+                contact_d: '如果您有任何問題或需要技術支援，請透過電子郵件與我們聯絡。我們的團隊將會儘速回覆您。',
+                email: '支援電子信箱：<span class="highlight">dr.barret.lin@gmail.com</span>',
+                faq_t: '常見問答 (FAQ)',
+                faq: [
+                    {
+                        q: 'Cloud Password 的雲端同步是如何運作的？',
+                        a: 'Cloud Password 透過 Google Drive 進行「零知識」雲端同步。所有的加密與 LWW (最後寫入者獲勝) 衝突解決程序完全在您的裝置本地端執行，我們永遠無法存取您的資料或主金鑰。'
+                    },
+                    {
+                        q: '如果我忘記了我的主金鑰該怎麼辦？',
+                        a: '由於嚴格的零知識架構設計，我們不會在任何伺服器上儲存您的主金鑰。如果您忘記了主金鑰，我們將無法協助您找回，您也將無法存取已儲存的密碼和信用卡資訊。請務必妥善保管您的主金鑰。'
+                    },
+                    {
+                        q: '我的信用卡資訊是安全的嗎？',
+                        a: '是的。所有信用卡與帳戶資訊在寫入儲存前，皆在本地使用軍事級 AES-256-GCM 進行加密，且僅能在您的本機裝置上進行解密。'
+                    },
+                    {
+                        q: '什麼是自癒修復工具？',
+                        a: '如果您因為金鑰衍生塊偏移或系統環境改變而遇到登入錯誤，您可以前往設定選單中的「隱私診斷中心」，執行「自癒修復」工具以動態重新校準金鑰驗證參數。'
+                    }
+                ]
+            },
+            'zh-CN': {
+                title: '客户支援服务',
+                intro: '欢迎使用 Cloud Password 客户支援页面。我们致力于为您提供安全、流畅的密码管理体验。',
+                contact_t: '联系我们',
+                contact_d: '如果您有任何问题或需要技术支持，请通过电子邮件与我们联系。我们的团队将会尽快回复您。',
+                email: '支持电子邮箱：<span class="highlight">dr.barret.lin@gmail.com</span>',
+                faq_t: '常见问答 (FAQ)',
+                faq: [
+                    {
+                        q: 'Cloud Password 的云端同步是如何运作的？',
+                        a: 'Cloud Password 通过 Google Drive 进行“零知识”云端同步。所有的加密与 LWW (最后写入者获胜) 冲突解决程序完全在您的设备本地端执行，我们永远无法访问您的数据或主密钥。'
+                    },
+                    {
+                        q: '如果我忘记了我的主密钥该怎么办？',
+                        a: '由于严格的零知识架构设计，我们不会在任何服务器上存储您的主密钥。如果您忘记了主密钥，我们将无法协助您找回，您也将无法访问已存储的密码和信用卡信息。请务必妥善保管您的主密钥。'
+                    },
+                    {
+                        q: '我的信用卡信息是安全的吗？',
+                        a: '是的。所有信用卡与账户信息在写入存储前，皆在本地使用军事级 AES-256-GCM 进行加密，且仅能在您的本机设备上进行解密。'
+                    },
+                    {
+                        q: '什么是自愈修复工具？',
+                        a: '如果您因为密钥衍生块偏移或系统环境改变而遇到登录错误，您可以前往设置菜单中的“隐私诊断中心”，执行“自愈修复”工具以动态重新校准密钥验证参数。'
+                    }
+                ]
+            },
+            'ja': {
+                title: 'カスタマーサポート',
+                intro: 'Cloud Password サポートページへようこそ。安全でシームレスなパスワード管理体験を提供することに努めています。',
+                contact_t: 'お問い合わせ',
+                contact_d: '質問や技術サポートが必要な場合は、メールでご連絡ください。できるだけ早く返信いたします。',
+                email: 'サポートメールアドレス：<span class="highlight">dr.barret.lin@gmail.com</span>',
+                faq_t: 'よくある質問 (FAQ)',
+                faq: [
+                    {
+                        q: 'Cloud Password のクラウド同期はどのように機能しますか？',
+                        a: 'Google ドライブを介したゼロ知識同期を使用します。すべての暗号化と競合解決（LWWアルゴリズム）はデバイス上でローカルに実行され、弊社がデータやマスターキーにアクセスすることはできません。'
+                    },
+                    {
+                        q: 'マスターキーを忘れた場合はどうすればよいですか？',
+                        a: '厳格なゼロ知識設計のため、サーバーにマスターキーを保存しません。マスターキーを忘れた場合、復元することはできず、パスワードやカードにアクセスできなくなります。マスターキーは安全に保管してください。'
+                    },
+                    {
+                        q: 'クレジットカード情報は安全ですか？',
+                        a: 'はい。すべてのカードと認証情報は、保存される前に軍用グレードの AES-256-GCM 暗号化を使用してローカルで暗号化されます。'
+                    },
+                    {
+                        q: '自己修復ツールとは何ですか？',
+                        a: 'キー派生ブロックのずれなどでログインエラーが発生した場合、設定メニューの診断センターで自己修復ツールを実行してパラメータを再調整できます。'
+                    }
+                ]
+            },
+            'ko': {
+                title: '고객 지원',
+                intro: 'Cloud Password 지원 페이지에 오신 것을 환영합니다. 안전하고 원활한 비밀번호 관리 경험을 제공하기 위해 최선을 다하고 있습니다.',
+                contact_t: '문의하기',
+                contact_d: '질문이나 기술 지원이 필요한 경우 이메일로 문의해 주세요. 최대한 신속하게 답변해 드리겠습니다.',
+                email: '지원 이메일: <span class="highlight">dr.barret.lin@gmail.com</span>',
+                faq_t: '자주 묻는 질문 (FAQ)',
+                faq: [
+                    {
+                        q: 'Cloud Password 의 클라우드 동기화는 어떻게 작동하나요?',
+                        a: 'Google 드라이브를 통한 영지식 동기화를 사용합니다. 모든 암호화 및 LWW 알고리즘 처리는 기기에서 로컬로 실행되며, 당사는 귀하의 데이터나 마스터 키에 접근할 수 없습니다.'
+                    },
+                    {
+                        q: '마스터 키를 잊어버리면 어떻게 해야 하나요?',
+                        a: '영지식 설계로 인해 서버에 마스터 키를 저장하지 않습니다. 마스터 키를 잊어버린 경우 복구할 수 없으며, 비밀번호와 카드 데이터에 접근할 수 없게 됩니다. 마스터 키를 안전하게 보관하세요.'
+                    },
+                    {
+                        q: '신용카드 정보는 안전한가요?',
+                        a: '네. 모든 카드와 정보는 저장되기 전에 군사 등급의 AES-256-GCM 암호화를 사용하여 로컬에서 암호화됩니다.'
+                    },
+                    {
+                        q: '자가 복구 도구란 무엇인가요?',
+                        a: '로그인 오류가 발생할 경우 설정 메뉴의 진단 센터로 이동하여 자가 복구 도구를 실행하고 매개변수를 재보정할 수 있습니다.'
+                    }
+                ]
+            },
+            'de': {
+                title: 'Kundensupport',
+                intro: 'Willkommen auf der Support-Seite von Cloud Password. Wir sind bestrebt, Ihnen eine sichere und nahtlose Passwortverwaltung zu bieten.',
+                contact_t: 'Kontakt',
+                contact_d: 'Wenn Sie Fragen haben oder technische Unterstützung benötigen, kontaktieren Sie uns bitte per E-Mail.',
+                email: 'Support-E-Mail: <span class="highlight">dr.barret.lin@gmail.com</span>',
+                faq_t: 'Häufig gestellte Fragen (FAQ)',
+                faq: [
+                    {
+                        q: 'Wie funktioniert die Cloud-Synchronisierung?',
+                        a: 'Cloud Password verwendet eine Zero-Knowledge-Synchronisierung über Google Drive. Die gesamte Verschlüsselung und LWW-Konfliktlösung erfolgen lokal auf Ihrem Gerät.'
+                    },
+                    {
+                        q: 'Was mache ich, wenn ich meinen Master-Key vergesse?',
+                        a: 'Aufgrund unseres Zero-Knowledge-Designs speichern wir Ihren Master-Key nicht. Wenn Sie ihn vergessen, können wir Ihre Daten nicht wiederherstellen.'
+                    },
+                    {
+                        q: 'Sind meine Kreditkarteninformationen sicher?',
+                        a: 'Ja. Alle Daten werden lokal mit einer AES-256-GCM-Verschlüsselung verschlüsselt, bevor sie gespeichert werden.'
+                    }
+                ]
+            },
+            'fr': {
+                title: 'Support Client',
+                intro: 'Bienvenue sur la page d\'assistance de Cloud Password. Nous nous engageons à vous offrir une gestion sécurisée et fluide de vos mots de passe.',
+                contact_t: 'Contactez-nous',
+                contact_d: 'Pour toute question ou assistance technique, veuillez nous contacter par e-mail.',
+                email: 'E-mail de support : <span class="highlight">dr.barret.lin@gmail.com</span>',
+                faq_t: 'Foire aux questions (FAQ)',
+                faq: [
+                    {
+                        q: 'Comment fonctionne la synchronisation Cloud ?',
+                        a: 'Cloud Password utilise une synchronisation Zero-Knowledge via Google Drive. Tout le chiffrement et l\'algorithme LWW sont exécutés localement sur votre appareil.'
+                    },
+                    {
+                        q: 'Que faire si j\'oublie mon Master Key ?',
+                        a: 'En raison de notre architecture Zero-Knowledge, nous ne stockons pas votre Master Key. Si vous l\'oubliez, nous ne pourrons pas récupérer vos données.'
+                    },
+                    {
+                        q: 'Mes données de carte de crédit sont-elles sécurisées ?',
+                        a: 'Oui. Toutes les informations sont chiffrées localement à l\'aide du cryptage militaire AES-256-GCM.'
+                    }
+                ]
+            }
+        };
+
+        function switchLang(lang) {
+            const t = translations[lang] || translations['en'];
+            
+            let faqHtml = '';
+            t.faq.forEach(item => {
+                faqHtml += `
+                    <div class="faq-item">
+                        <div class="faq-question">Q: ${item.q}</div>
+                        <div class="faq-answer">A: ${item.a}</div>
+                    </div>
+                `;
+            });
+
+            document.getElementById('content').innerHTML = `
+                <h1>${t.title}</h1>
+                <p>${t.intro}</p>
+                
+                <h2>${t.contact_t}</h2>
+                <p>${t.contact_d}</p>
+                <div class="contact-info">
+                    <p style="margin: 0; color: #fff; font-weight: bold;">${t.email}</p>
+                </div>
+
+                <h2>${t.faq_t}</h2>
+                ${faqHtml}
+            `;
+            document.documentElement.lang = lang;
+            document.getElementById('langSelect').value = lang;
+        }
+
+        // Auto-detect language from URL or Browser
+        const urlParams = new URLSearchParams(window.location.search);
+        let targetLang = urlParams.get('lang') || navigator.language || 'en';
+        if (targetLang.startsWith('zh-HK') || targetLang.startsWith('zh-TW')) targetLang = 'zh-TW';
+        else if (targetLang.startsWith('zh')) targetLang = 'zh-CN';
+        else targetLang = targetLang.split('-')[0];
+
+        switchLang(targetLang);
+    </script>
+</body>
+</html>

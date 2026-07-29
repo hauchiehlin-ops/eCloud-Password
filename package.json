@@ -1,0 +1,28 @@
+{
+  "name": "private-vault-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "postinstall": "echo 'Monorepo workspaces installed'",
+    "android": "cd apps/mobile && expo run:android",
+    "ios": "cd apps/mobile && expo run:ios",
+    "bump": "node bump-version.js"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~54.0.1"
+  },
+  "dependencies": {
+    "expo-dev-client": "~6.0.21",
+    "expo": "~54.0.34",
+    "react": "19.1.0",
+    "react-native": "0.81.5"
+  },
+  "overrides": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  }
+}

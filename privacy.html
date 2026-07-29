@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Cloud Password</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #e0e0e0;
+            background-color: #000;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #111;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #333;
+        }
+        h1 { color: #ffd700; border-bottom: 2px solid #ffd700; padding-bottom: 10px; font-size: 1.8em; }
+        h2 { color: #ffd700; margin-top: 30px; font-size: 1.2em; }
+        p, li { color: #bbb; font-size: 0.95em; }
+        .footer { margin-top: 50px; text-align: center; font-size: 0.8em; color: #666; }
+        .highlight { color: #4dabf7; font-weight: bold; }
+        .lang-switch { margin-bottom: 20px; text-align: right; }
+        select { background: #222; color: #fff; border: 1px solid #444; padding: 5px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <select id="langSelect" onchange="switchLang(this.value)">
+                <option value="en">English</option>
+                <option value="zh-TW">繁體中文</option>
+                <option value="zh-CN">简体中文</option>
+                <option value="ja">日本語</option>
+                <option value="ko">한국어</option>
+                <option value="th">ไทย (Thai)</option>
+                <option value="vi">Tiếng Việt</option>
+                <option value="ms">Bahasa Melayu</option>
+                <option value="tl">Tagalog</option>
+                <option value="de">Deutsch</option>
+                <option value="fr">Français</option>
+                <option value="ru">Русский</option>
+            </select>
+        </div>
+        <div id="content">
+            <!-- Content will be injected here -->
+        </div>
+        <div class="footer">
+            &copy; 2026 Cloud Password Team. All rights reserved.
+        </div>
+    </div>
+
+    <script>
+        const translations = {
+            'en': {
+                title: 'Privacy Policy',
+                updated: 'Last Updated: May 20, 2026',
+                intro: 'Welcome to <span class="highlight">Cloud Password</span>. Our core design is "Privacy First" and "Local Control".',
+                sec1_t: '1. Strict Zero-Knowledge Architecture',
+                sec1_d: 'Cloud Password operates on a strict \'Zero-Knowledge\' architecture. Your master key, vault items, and decryption processes are managed entirely locally on your device. We do not collect, transmit, or store any personally identifiable information (PII) or plaintext credentials on our servers.',
+                sec1_l: '<li>Passwords & Cards: Stored only in your device\'s encrypted vault.</li><li>Biometrics: We use system APIs (FaceID/TouchID); we cannot access your raw biometric data.</li>',
+                sec2_t: '2. Cloud Sync & Tombstone Garbage Collection',
+                sec2_d: 'Zero-knowledge sync via Google Drive using a robust Last-Writer-Wins (LWW) conflict resolution algorithm. Only your device holds the keys; your data remains invisible to everyone else, including Google.',
+                sec2_l: '<li>Tombstone Deletions: Deleted items are securely tombstoned in the cloud and physically purged (Garbage Collected) from your local device upon successful sync, ensuring maximum data sovereignty and storage efficiency.</li>',
+                sec3_t: '3. Military-Grade Security',
+                sec3_d: 'We use military-grade <span class="highlight">AES-256-GCM</span> encryption. Your Master Key is never stored and is derived locally using Argon2id, providing maximum resistance against brute-force attacks.',
+                sec5_t: '4. Self-Healing & Diagnostic Center',
+                sec5_d: 'Our active system monitoring prevents instance collisions and ensures derivation integrity. If you experience login issues or environment shifts, you can use the Self-Healing Repair tool in the Diagnostic Center to dynamically recalibrate your key verification block.'
+            },
+            'zh-TW': {
+                title: '隱私權政策',
+                updated: '最後更新日期：2026年5月20日',
+                intro: '歡迎使用 <span class="highlight">Cloud Password</span>。本應用程式的設計核心即是「隱私優先」與「本地控制」。',
+                sec1_t: '1. 嚴格的零知識架構',
+                sec1_d: '本應用程式在嚴格的「零知識」架構下運作。您的主金鑰、保險箱項目以及解密過程完全在您的裝置本地管理。我們不會在伺服器上收集、傳輸或儲存任何個人可識別資訊 (PII) 或明文憑證。',
+                sec1_l: '<li>密碼與信用卡資料：僅儲存在您裝置的加密資料庫中。</li><li>生物辨識資料：僅透過系統 API 驗證身分，我們無法存取原始資料。</li>',
+                sec2_t: '2. 雲端同步與墓碑垃圾回收',
+                sec2_d: '透過 Google Drive 進行零知識同步，採用強健的 LWW (最後寫入者獲勝) 衝突解決演算法。只有您的裝置擁有金鑰，連 Google 也無法窺探您的資料。',
+                sec2_l: '<li>墓碑刪除機制：刪除的項目會在雲端安全地標記為墓碑，並在同步成功後從您的本地裝置進行物理清除 (垃圾回收)，確保最大程度的資料主權與儲存效率。</li>',
+                sec3_t: '3. 軍事級資料安全性',
+                sec3_d: '採用軍事級 <span class="highlight">AES-256-GCM</span> 加密。您的主金鑰永遠不會被儲存，而是透過 Argon2id 演算法動態衍生，確保極高的抗暴力破解能力。',
+                sec5_t: '4. 自癒修復與隱私診斷中心',
+                sec5_d: '我們的主動系統監控可防止實例碰撞並確保衍生金鑰的完整性。如果您遇到登入問題或環境偏移，請使用診斷中心中的「自癒修復」工具來動態重新校準您的金鑰驗證塊。'
+            },
+            'zh-CN': {
+                title: '隐私政策',
+                updated: '最后更新日期：2026年5月20日',
+                intro: '欢迎使用 <span class="highlight">Cloud Password</span>。本应用程序的设计核心即是“隐私优先”与“本地控制”。',
+                sec1_t: '1. 严格的零知识架构',
+                sec1_d: '本应用程序在严格的“零知识”架构下运作。您的主密钥、保险箱项目以及解密过程完全在您的设备本地管理。我们不会在服务器上收集、传输或存储任何个人可识别信息 (PII) 或明文凭证。',
+                sec1_l: '<li>密码与信用卡：仅保存在您的本地加密数据库中。</li><li>生物识别：使用系统 API，我们无法访问原始数据。</li>',
+                sec2_t: '2. 云同步与墓碑垃圾回收',
+                sec2_d: '通过 Google Drive 进行零知识同步，采用强健的 LWW (最后写入者获胜) 冲突解决算法。只有您的设备拥有密钥，连 Google 也无法窥探您的数据。',
+                sec2_l: '<li>墓碑删除机制：删除的项目会在云端安全地标记为墓碑，并在同步成功后从您的本地设备进行物理清除 (垃圾回收)，确保最大程度的数据主权与存储效率。</li>',
+                sec3_t: '3. 军事级数据安全性',
+                sec3_d: '采用军事级 <span class="highlight">AES-256-GCM</span> 加密。您的主密钥永远不会被存储，而是通过 Argon2id 算法动态衍生，确保极高的抗暴力破解能力。',
+                sec5_t: '4. 自愈修复与诊断中心',
+                sec5_d: '我们的主动系统监控可防止实例碰撞并确保衍生密钥的完整性。如果您遇到登录问题或环境偏移，请使用诊断中心中的“自愈修复”工具来动态重新校准您的密钥验证块。'
+            },
+            'ja': {
+                title: 'プライバシーポリシー',
+                updated: '最終更新日：2026年5月20日',
+                intro: '<span class="highlight">Cloud Password</span>へようこそ。当アプリは「プライバシー第一」と「ローカル制御」を核に設計されています。',
+                sec1_t: '1. 厳格なゼロ知識アーキテクチャ',
+                sec1_d: 'このアプリケーションは厳格な「ゼロ知識」アーキテクチャで動作します。マスターキー、金庫の項目、復号化プロセスはすべてデバイスのローカルで管理されます。サーバー上で個人情報を収集、送信、保存することはありません。',
+                sec1_l: '<li>パスワードとカード：デバイス内の暗号化された保管庫にのみ保存されます。</li><li>生体認証：システムAPIを使用し、生体データに直接アクセスすることはありません。</li>',
+                sec2_t: '2. クラウド同期とガベージコレクション',
+                sec2_d: 'Googleドライブを介したゼロ知識同期。堅牢なLWW（Last-Writer-Wins）競合解決アルゴリズムを採用しています。',
+                sec2_l: '<li>トゥームストーン削除：削除されたアイテムはクラウドでトゥームストーンとしてマークされ、同期成功後にローカルから物理的に消去（ガベージコレクション）されます。</li>',
+                sec3_t: '3. 軍用グレードのセキュリティ',
+                sec3_d: '軍用グレードの<span class="highlight">AES-256-GCM</span>暗号化を使用しています。マスターキーは保存されず、Argon2idを使用してローカルで派生します。',
+                sec5_t: '4. 自己修復と診断センター',
+                sec5_d: 'アクティブなシステム監視によりインスタンスの衝突を防ぎます。環境のずれが発生した場合は、診断センターの自己修復ツールを使用して再調整してください。'
+            },
+            'ko': {
+                title: '개인정보 처리방침',
+                updated: '마지막 업데이트: 2026년 5월 20일',
+                intro: '<span class="highlight">Cloud Password</span>에 오신 것을 환영합니다. 본 앱은 "프라이버시 우선" 및 "로컬 제어"를 핵심으로 설계되었습니다.',
+                sec1_t: '1. 엄격한 영지식 아키텍처',
+                sec1_d: '이 애플리케이션은 엄격한 \'영지식(Zero-Knowledge)\' 아키텍처로 작동합니다. 마스터 키, 금고 항목 및 복호화 프로세스는 전적으로 기기 내 로컬에서 관리됩니다.',
+                sec1_l: '<li>비밀번호 및 카드: 장치의 암호화된 보관함에만 저장됩니다.</li><li>생체 인증: 시스템 API를 사용하며 원본 데이터에 접근하지 않습니다.</li>',
+                sec2_t: '2. 클라우드 동기화 및 가비지 컬렉션',
+                sec2_d: '강력한 LWW(Last-Writer-Wins) 충돌 해결 알고리즘을 사용한 Google 드라이브를 통한 영지식 동기화.',
+                sec2_l: '<li>툼스톤 삭제: 삭제된 항목은 클라우드에 툼스톤으로 표시되며 동기화 성공 시 로컬 기기에서 물리적으로 삭제(가비지 컬렉션)됩니다.</li>',
+                sec3_t: '3. 군사 등급 보안',
+                sec3_d: '군사 등급의 <span class="highlight">AES-256-GCM</span> 암호화를 사용합니다. 마스터 키는 절대 저장되지 않으며 Argon2id를 사용하여 로컬에서 파생됩니다.',
+                sec5_t: '4. 자가 복구 및 진단 센터',
+                sec5_d: '능동적인 시스템 모니터링을 통해 파생 무결성을 보장합니다. 로그인 문제가 발생하면 진단 센터의 자가 복구 도구를 사용하여 재조정하세요.'
+            },
+            'th': {
+                title: 'นโยบายความเป็นส่วนตัว',
+                updated: 'อัปเดตล่าสุด: 20 พฤษภาคม 2026',
+                intro: 'ยินดีต้อนรับสู่ <span class="highlight">Cloud Password</span> การออกแบบหลักของเราคือ "ความเป็นส่วนตัวต้องมาก่อน" และ "การควบคุมเฉพาะที่"',
+                sec1_t: '1. สถาปัตยกรรม Zero-Knowledge ที่เข้มงวด',
+                sec1_d: 'แอปพลิเคชันนี้ทำงานบนสถาปัตยกรรม \'Zero-Knowledge\' อย่างเข้มงวด รหัสผ่านหลักและกระบวนการถอดรหัสได้รับการจัดการภายในอุปกรณ์ของคุณทั้งหมด',
+                sec1_l: '<li>รหัสผ่านและบัตร: จัดเก็บเฉพาะในห้องนิรภัยที่เข้ารหัสในอุปกรณ์ของคุณเท่านั้น</li><li>ไบโอเมตริกซ์: เราใช้ API ของระบบ เราไม่สามารถเข้าถึงข้อมูลไบโอเมตริกซ์ดิบของคุณได้</li>',
+                sec2_t: '2. การซิงค์คลาวด์และการรวบรวมขยะ Tombstone',
+                sec2_d: 'การซิงค์แบบ Zero-knowledge ผ่าน Google Drive โดยใช้อัลกอริทึมการแก้ไขข้อขัดแย้ง LWW',
+                sec2_l: '<li>การลบแบบ Tombstone: รายการที่ถูกลบจะถูกทำเครื่องหมายและจะถูกลบออกทางกายภาพ (Garbage Collected) จากอุปกรณ์ในพื้นที่ของคุณเมื่อซิงค์สำเร็จ</li>',
+                sec3_t: '3. ความปลอดภัยระดับทหาร',
+                sec3_d: 'เราใช้การเข้ารหัสระดับทหาร <span class="highlight">AES-256-GCM</span> รหัสผ่านหลักของคุณจะไม่ถูกจัดเก็บไว้ แต่สร้างขึ้นภายในเครื่องโดยใช้ Argon2id',
+                sec5_t: '4. การซ่อมแซมตัวเองและศูนย์วินิจฉัย',
+                sec5_d: 'หากคุณประสบปัญหาการเข้าสู่ระบบหรือสภาพแวดล้อมเปลี่ยนแปลง ให้ใช้เครื่องมือซ่อมแซมตัวเองในศูนย์วินิจฉัยเพื่อปรับเทียบใหม่'
+            },
+            'vi': {
+                title: 'Chính sách Bảo mật',
+                updated: 'Cập nhật lần cuối: 20 tháng 5, 2026',
+                intro: 'Chào mừng đến với <span class="highlight">Cloud Password</span>. Cốt lõi của chúng tôi là "Bảo mật trên hết" và "Kiểm soát cục bộ".',
+                sec1_t: '1. Kiến trúc Zero-Knowledge nghiêm ngặt',
+                sec1_d: 'Ứng dụng hoạt động trên kiến trúc \'Zero-Knowledge\'. Khóa chính và dữ liệu của bạn chỉ được quản lý cục bộ trên thiết bị.',
+                sec1_l: '<li>Mật khẩu & Thẻ: Chỉ lưu trong kho mã hóa của thiết bị.</li><li>Sinh trắc học: Sử dụng API hệ thống, không truy cập dữ liệu thô.</li>',
+                sec2_t: '2. Đồng bộ đám mây & Dọn dẹp rác',
+                sec2_d: 'Đồng bộ qua Google Drive với thuật toán giải quyết xung đột Last-Writer-Wins (LWW).',
+                sec2_l: '<li>Xóa Tombstone: Dữ liệu đã xóa sẽ được đánh dấu trên đám mây và xóa vĩnh viễn (Garbage Collected) khỏi thiết bị sau khi đồng bộ thành công.</li>',
+                sec3_t: '3. Bảo mật Cấp độ Quân sự',
+                sec3_d: 'Sử dụng mã hóa <span class="highlight">AES-256-GCM</span>. Khóa chính không bao giờ được lưu trữ và được tạo bằng Argon2id.',
+                sec5_t: '4. Tự động phục hồi & Chẩn đoán',
+                sec5_d: 'Hệ thống giám sát ngăn ngừa lỗi. Nếu gặp vấn đề đăng nhập, hãy dùng công cụ Tự phục hồi trong Trung tâm Chẩn đoán.'
+            },
+            'ms': {
+                title: 'Dasar Privasi',
+                updated: 'Kemas Kini Terakhir: 20 Mei 2026',
+                intro: 'Selamat datang ke <span class="highlight">Cloud Password</span>. Reka bentuk teras kami adalah "Privasi Diutamakan".',
+                sec1_t: '1. Senibina Pengetahuan-Sifar',
+                sec1_d: 'Beroperasi pada arkitek \'Sifar Pengetahuan\' yang ketat. Kunci induk dan data diuruskan sepenuhnya secara setempat.',
+                sec1_l: '<li>Kata Laluan & Kad: Hanya dalam peti besi disulitkan peranti.</li><li>Biometrik: Menggunakan API sistem, tiada akses data mentah.</li>',
+                sec2_t: '2. Penyegerakan Awan & Kutipan Sampah Tombstone',
+                sec2_d: 'Penyegerakan sifar pengetahuan melalui Google Drive menggunakan algoritma LWW.',
+                sec2_l: '<li>Pemadaman Tombstone: Item dipadamkan ditandakan dan dibersihkan secara fizikal dari peranti selepas penyegerakan berjaya.</li>',
+                sec3_t: '3. Keselamatan Gred Tentera',
+                sec3_d: 'Penyulitan <span class="highlight">AES-256-GCM</span> digunakan. Kunci diterbitkan menggunakan Argon2id.',
+                sec5_t: '4. Pembaikan Kendiri & Diagnostik',
+                sec5_d: 'Gunakan Pembaikan Penyembuhan Kendiri di Pusat Diagnostik untuk masalah log masuk.'
+            },
+            'tl': {
+                title: 'Patakaran sa Privacy',
+                updated: 'Huling Na-update: Mayo 20, 2026',
+                intro: 'Maligayang pagdating sa <span class="highlight">Cloud Password</span>. Ang pangunahing disenyo namin ay "Privacy First".',
+                sec1_t: '1. Mahigpit na Zero-Knowledge Architecture',
+                sec1_d: 'Ang lahat ng data at encryption ay lokal na pinamamahalaan sa iyong device.',
+                sec1_l: '<li>Password at Card: Naka-store lamang sa device.</li><li>Biometrics: Gumagamit ng system API.</li>',
+                sec2_t: '2. Cloud Sync at Tombstone Garbage Collection',
+                sec2_d: 'Gumagamit ng Google Drive para sa zero-knowledge sync.',
+                sec2_l: '<li>Tombstone Deletion: Ang mga naburang item ay tuluyang aalisin sa device matapos ang sync.</li>',
+                sec3_t: '3. Military-Grade Security',
+                sec3_d: 'Gumagamit ng <span class="highlight">AES-256-GCM</span> at Argon2id.',
+                sec5_t: '4. Self-Healing at Diagnostic Center',
+                sec5_d: 'Kung may isyu sa pag-login, gamitin ang Self-Healing Repair tool.'
+            },
+            'de': {
+                title: 'Datenschutzerklärung',
+                updated: 'Zuletzt aktualisiert: 20. Mai 2026',
+                intro: 'Willkommen bei <span class="highlight">Cloud Password</span>. Unser Design basiert auf "Privacy First".',
+                sec1_t: '1. Strikte Zero-Knowledge-Architektur',
+                sec1_d: 'Ihr Master-Key und Entschlüsselungsprozesse werden vollständig lokal verwaltet.',
+                sec1_l: '<li>Passwörter & Karten: Nur lokal gespeichert.</li><li>Biometrie: Nutzung über System-APIs.</li>',
+                sec2_t: '2. Cloud-Sync & Tombstone-Bereinigung',
+                sec2_d: 'Zero-Knowledge-Synchronisierung über Google Drive.',
+                sec2_l: '<li>Tombstone-Löschungen: Physische Löschung (Garbage Collection) vom lokalen Gerät nach erfolgreicher Synchronisierung.</li>',
+                sec3_t: '3. Sicherheit',
+                sec3_d: 'Verwendung von <span class="highlight">AES-256-GCM</span> und Argon2id.',
+                sec5_t: '4. Diagnosezentrum',
+                sec5_d: 'Nutzen Sie bei Login-Problemen die Selbstheilungs-Reparatur.'
+            },
+            'fr': {
+                title: 'Politique de Confidentialité',
+                updated: 'Dernière mise à jour : 20 mai 2026',
+                intro: 'Bienvenue sur <span class="highlight">Cloud Password</span>. Notre conception repose sur la "Confidentialité d\'abord".',
+                sec1_t: '1. Architecture Zéro Connaissance',
+                sec1_d: 'Votre clé maître et vos données sont entièrement gérées localement.',
+                sec1_l: '<li>Mots de passe : Stockés uniquement localement.</li><li>Biométrie : Utilisation des API système.</li>',
+                sec2_t: '2. Synchro Cloud & Nettoyage Tombstone',
+                sec2_d: 'Synchronisation zéro connaissance via Google Drive.',
+                sec2_l: '<li>Suppressions Tombstone : Purgées physiquement de l\'appareil après synchronisation.</li>',
+                sec3_t: '3. Sécurité Militaire',
+                sec3_d: 'Chiffrement <span class="highlight">AES-256-GCM</span> et Argon2id.',
+                sec5_t: '4. Centre de diagnostic',
+                sec5_d: 'Utilisez la réparation auto-cicatrisante en cas de problème de connexion.'
+            },
+            'ru': {
+                title: 'Политика конфиденциальности',
+                updated: 'Последнее обновление: 20 мая 2026 г.',
+                intro: 'Добро пожаловать в <span class="highlight">Cloud Password</span>. В основе нашего дизайна лежат принципы «Конфиденциальность прежде всего».',
+                sec1_t: '1. Архитектура нулевого разглашения',
+                sec1_d: 'Ваш главный ключ и процессы расшифровки управляются исключительно локально.',
+                sec1_l: '<li>Пароли: Хранятся только локально.</li><li>Биометрия: Используются системные API.</li>',
+                sec2_t: '2. Облачная синхронизация',
+                sec2_d: 'Синхронизация через Google Drive.',
+                sec2_l: '<li>Удаления: Физически удаляются с устройства после успешной синхронизации (сборка мусора).</li>',
+                sec3_t: '3. Безопасность',
+                sec3_d: 'Используется <span class="highlight">AES-256-GCM</span> и Argon2id.',
+                sec5_t: '4. Диагностика',
+                sec5_d: 'При проблемах со входом используйте инструмент самовосстановления.'
+            }
+        };
+
+        function switchLang(lang) {
+            const t = translations[lang] || translations['en'];
+            document.getElementById('content').innerHTML = `
+                <h1>${t.title}</h1>
+                <p>${t.updated}</p>
+                <p>${t.intro}</p>
+                <h2>${t.sec1_t}</h2>
+                <p>${t.sec1_d}</p>
+                <ul>${t.sec1_l}</ul>
+                <h2>${t.sec2_t}</h2>
+                <p>${t.sec2_d}</p>
+                <ul>${t.sec2_l}</ul>
+                <h2>${t.sec3_t}</h2>
+                <p>${t.sec3_d}</p>
+                <h2>${t.sec5_t}</h2>
+                <p>${t.sec5_d}</p>
+            `;
+            document.documentElement.lang = lang;
+            document.getElementById('langSelect').value = lang;
+        }
+
+        // Auto-detect language from URL or Browser
+        const urlParams = new URLSearchParams(window.location.search);
+        let targetLang = urlParams.get('lang') || navigator.language || 'en';
+        if (targetLang.startsWith('zh-HK') || targetLang.startsWith('zh-TW')) targetLang = 'zh-TW';
+        else if (targetLang.startsWith('zh')) targetLang = 'zh-CN';
+        else targetLang = targetLang.split('-')[0];
+
+        switchLang(targetLang);
+    </script>
+</body>
+</html>

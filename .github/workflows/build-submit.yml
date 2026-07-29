@@ -1,0 +1,71 @@
+name: Build and Submit App
+
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Platform to build'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - ios
+          - android
+      profile:
+        description: 'Build profile'
+        required: true
+        default: 'production'
+        type: choice
+        options:
+          - production
+          - preview
+      bump_type:
+        description: 'Auto bump version type before build'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+          - none
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 🏗 Setup repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🏗 Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 🏗 Setup Expo and EAS
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: 🔄 Bump Version
+        if: ${{ github.event.inputs.bump_type != 'none' }}
+        run: |
+          npm run bump -- ${{ github.event.inputs.bump_type }}
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add apps/mobile/app.json apps/mobile/ios/CloudPassword/Info.plist apps/mobile/android/app/build.gradle
+          git commit -m "chore: auto bump version (${{ github.event.inputs.bump_type }}) [skip ci]" || echo "No changes to commit"
+          git push
+
+      - name: 🚀 Build App
+        run: cd apps/mobile && eas build --platform ${{ github.event.inputs.platform }} --profile ${{ github.event.inputs.profile }} --non-interactive

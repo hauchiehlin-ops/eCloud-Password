@@ -1,0 +1,13 @@
+{
+  "name": "@private-vault/core",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "otpauth": "^9.5.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

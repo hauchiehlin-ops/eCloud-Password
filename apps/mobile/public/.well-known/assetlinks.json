@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.privatevault.app",
+      "sha256_cert_fingerprints": [
+        "6F:10:31:5E:70:A5:AE:2A:56:76:BE:83:F6:3F:EE:45:88:73:AC:46:1E:38:74:36:F9:B3:EF:A6:57:D0:2F:26"
+      ]
+    }
+  }
+]

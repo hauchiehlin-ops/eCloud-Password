@@ -1,0 +1,1750 @@
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/84eeb274060dfdfaebd726d9347bd148/results.bin b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/84eeb274060dfdfaebd726d9347bd148/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/84eeb274060dfdfaebd726d9347bd148/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/84eeb274060dfdfaebd726d9347bd148/transformed/classes/classes_dex/classes.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/84eeb274060dfdfaebd726d9347bd148/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..fa81d20
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/84eeb274060dfdfaebd726d9347bd148/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/results.bin b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/results.bin
+new file mode 100644
+index 0000000..7ed749e
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/results.bin
+@@ -0,0 +1 @@
++o/bundleLibRuntimeToDirDebug
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.dex
+new file mode 100644
+index 0000000..907fe46
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.dex
+new file mode 100644
+index 0000000..727d940
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/BuildConfig.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/BuildConfig.dex
+new file mode 100644
+index 0000000..0b07376
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/BuildConfig.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/ErrorDto.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/ErrorDto.dex
+new file mode 100644
+index 0000000..4243384
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/ErrorDto.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/NativeGoogleSigninSpec.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/NativeGoogleSigninSpec.dex
+new file mode 100644
+index 0000000..844cfff
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/NativeGoogleSigninSpec.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/PendingAuthRecovery.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/PendingAuthRecovery.dex
+new file mode 100644
+index 0000000..25f48b3
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/PendingAuthRecovery.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/PromiseWrapper.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/PromiseWrapper.dex
+new file mode 100644
+index 0000000..85a349a
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/PromiseWrapper.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninButtonManagerDelegate.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninButtonManagerDelegate.dex
+new file mode 100644
+index 0000000..d47dd5e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninButtonManagerDelegate.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninButtonManagerInterface.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninButtonManagerInterface.dex
+new file mode 100644
+index 0000000..cb21f00
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninButtonManagerInterface.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninButtonViewManager.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninButtonViewManager.dex
+new file mode 100644
+index 0000000..57acf49
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninButtonViewManager.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule$AccessTokenRetrievalTask.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule$AccessTokenRetrievalTask.dex
+new file mode 100644
+index 0000000..1a9c010
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule$AccessTokenRetrievalTask.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule$RNGoogleSigninActivityEventListener.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule$RNGoogleSigninActivityEventListener.dex
+new file mode 100644
+index 0000000..cad7939
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule$RNGoogleSigninActivityEventListener.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule$TokenClearingTask.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule$TokenClearingTask.dex
+new file mode 100644
+index 0000000..39c5bd0
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule$TokenClearingTask.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule.dex
+new file mode 100644
+index 0000000..00a998a
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninModule.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninPackage.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninPackage.dex
+new file mode 100644
+index 0000000..6371a6a
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/RNGoogleSigninPackage.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/SigninButtonEvent.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/SigninButtonEvent.dex
+new file mode 100644
+index 0000000..9684809
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/SigninButtonEvent.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/Utils.dex b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/Utils.dex
+new file mode 100644
+index 0000000..1823c69
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativegooglesignin/Utils.dex differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin
+new file mode 100644
+index 0000000..968c3a2
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/.transforms/e124677ddbd1602740ebc71084d5f27c/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/buildConfig/debug/com/reactnativegooglesignin/BuildConfig.java b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/buildConfig/debug/com/reactnativegooglesignin/BuildConfig.java
+new file mode 100644
+index 0000000..ad0d3e0
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/buildConfig/debug/com/reactnativegooglesignin/BuildConfig.java
+@@ -0,0 +1,12 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.reactnativegooglesignin;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String LIBRARY_PACKAGE_NAME = "com.reactnativegooglesignin";
++  public static final String BUILD_TYPE = "debug";
++  // Field from default config.
++  public static final boolean IS_NEW_ARCHITECTURE_ENABLED = true;
++}
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/java/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.java b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/java/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.java
+new file mode 100644
+index 0000000..6555cb3
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/java/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.java
+@@ -0,0 +1,38 @@
++/**
++* This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++*
++* Do not edit this file as changes may cause incorrect behavior and will be lost
++* once the code is regenerated.
++*
++* @generated by codegen project: GeneratePropsJavaDelegate.js
++*/
++
++package com.facebook.react.viewmanagers;
++
++import android.view.View;
++import androidx.annotation.Nullable;
++import com.facebook.react.uimanager.BaseViewManager;
++import com.facebook.react.uimanager.BaseViewManagerDelegate;
++import com.facebook.react.uimanager.LayoutShadowNode;
++
++public class RNGoogleSigninButtonManagerDelegate<T extends View, U extends BaseViewManager<T, ? extends LayoutShadowNode> & RNGoogleSigninButtonManagerInterface<T>> extends BaseViewManagerDelegate<T, U> {
++  public RNGoogleSigninButtonManagerDelegate(U viewManager) {
++    super(viewManager);
++  }
++  @Override
++  public void setProperty(T view, String propName, @Nullable Object value) {
++    switch (propName) {
++      case "disabled":
++        mViewManager.setDisabled(view, value == null ? false : (boolean) value);
++        break;
++      case "color":
++        mViewManager.setColor(view, (String) value);
++        break;
++      case "size":
++        mViewManager.setSize(view, value == null ? 0 : ((Double) value).intValue());
++        break;
++      default:
++        super.setProperty(view, propName, value);
++    }
++  }
++}
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/java/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.java b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/java/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.java
+new file mode 100644
+index 0000000..39b1f72
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/java/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.java
+@@ -0,0 +1,20 @@
++/**
++* This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++*
++* Do not edit this file as changes may cause incorrect behavior and will be lost
++* once the code is regenerated.
++*
++* @generated by codegen project: GeneratePropsJavaInterface.js
++*/
++
++package com.facebook.react.viewmanagers;
++
++import android.view.View;
++import androidx.annotation.Nullable;
++import com.facebook.react.uimanager.ViewManagerWithGeneratedInterface;
++
++public interface RNGoogleSigninButtonManagerInterface<T extends View> extends ViewManagerWithGeneratedInterface {
++  void setDisabled(T view, boolean value);
++  void setColor(T view, @Nullable String value);
++  void setSize(T view, int value);
++}
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/java/com/reactnativegooglesignin/NativeGoogleSigninSpec.java b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/java/com/reactnativegooglesignin/NativeGoogleSigninSpec.java
+new file mode 100644
+index 0000000..062425d
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/java/com/reactnativegooglesignin/NativeGoogleSigninSpec.java
+@@ -0,0 +1,121 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleJavaSpec.js
++ *
++ * @nolint
++ */
++
++package com.reactnativegooglesignin;
++
++import com.facebook.proguard.annotations.DoNotStrip;
++import com.facebook.react.bridge.Promise;
++import com.facebook.react.bridge.ReactApplicationContext;
++import com.facebook.react.bridge.ReactContextBaseJavaModule;
++import com.facebook.react.bridge.ReactMethod;
++import com.facebook.react.bridge.ReadableMap;
++import com.facebook.react.bridge.WritableMap;
++import com.facebook.react.common.build.ReactBuildConfig;
++import com.facebook.react.turbomodule.core.interfaces.TurboModule;
++import java.util.Arrays;
++import java.util.HashSet;
++import java.util.Map;
++import java.util.Set;
++import javax.annotation.Nonnull;
++import javax.annotation.Nullable;
++
++public abstract class NativeGoogleSigninSpec extends ReactContextBaseJavaModule implements TurboModule {
++  public static final String NAME = "RNGoogleSignin";
++
++  public NativeGoogleSigninSpec(ReactApplicationContext reactContext) {
++    super(reactContext);
++  }
++
++  @Override
++  public @Nonnull String getName() {
++    return NAME;
++  }
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void signIn(ReadableMap params, Promise promise);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void configure(ReadableMap params, Promise promise);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void addScopes(ReadableMap params, Promise promise);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void playServicesAvailable(boolean showPlayServicesUpdateDialog, Promise promise);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void signInSilently(Promise promise);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void signOut(Promise promise);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void revokeAccess(Promise promise);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void clearCachedAccessToken(String tokenString, Promise promise);
++
++  @ReactMethod(isBlockingSynchronousMethod = true)
++  @DoNotStrip
++  public abstract boolean hasPreviousSignIn();
++
++  @ReactMethod(isBlockingSynchronousMethod = true)
++  @DoNotStrip
++  public abstract @Nullable WritableMap getCurrentUser();
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void getTokens(Promise promise);
++
++  protected abstract Map<String, Object> getTypedExportedConstants();
++
++  @Override
++  @DoNotStrip
++  public final @Nullable Map<String, Object> getConstants() {
++    Map<String, Object> constants = getTypedExportedConstants();
++    if (ReactBuildConfig.DEBUG || ReactBuildConfig.IS_INTERNAL_BUILD) {
++      Set<String> obligatoryFlowConstants = new HashSet<>(Arrays.asList(
++          "BUTTON_SIZE_ICON",
++          "BUTTON_SIZE_STANDARD",
++          "BUTTON_SIZE_WIDE",
++          "IN_PROGRESS",
++          "NO_SAVED_CREDENTIAL_FOUND",
++          "ONE_TAP_START_FAILED",
++          "PLAY_SERVICES_NOT_AVAILABLE",
++          "SCOPES_ALREADY_GRANTED",
++          "SIGN_IN_CANCELLED",
++          "SIGN_IN_REQUIRED"
++      ));
++      Set<String> optionalFlowConstants = new HashSet<>();
++      Set<String> undeclaredConstants = new HashSet<>(constants.keySet());
++      undeclaredConstants.removeAll(obligatoryFlowConstants);
++      undeclaredConstants.removeAll(optionalFlowConstants);
++      if (!undeclaredConstants.isEmpty()) {
++        throw new IllegalStateException(String.format("Native Module Flow doesn't declare constants: %s", undeclaredConstants));
++      }
++      undeclaredConstants = obligatoryFlowConstants;
++      undeclaredConstants.removeAll(constants.keySet());
++      if (!undeclaredConstants.isEmpty()) {
++        throw new IllegalStateException(String.format("Native Module doesn't fill in constants: %s", undeclaredConstants));
++      }
++    }
++    return constants;
++  }
++}
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/CMakeLists.txt b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/CMakeLists.txt
+new file mode 100644
+index 0000000..f96cbf2
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/CMakeLists.txt
+@@ -0,0 +1,28 @@
++# Copyright (c) Meta Platforms, Inc. and affiliates.
++#
++# This source code is licensed under the MIT license found in the
++# LICENSE file in the root directory of this source tree.
++
++cmake_minimum_required(VERSION 3.13)
++set(CMAKE_VERBOSE_MAKEFILE on)
++
++file(GLOB react_codegen_SRCS CONFIGURE_DEPENDS *.cpp react/renderer/components/RNGoogleSignInCGen/*.cpp)
++
++add_library(
++  react_codegen_RNGoogleSignInCGen
++  OBJECT
++  ${react_codegen_SRCS}
++)
++
++target_include_directories(react_codegen_RNGoogleSignInCGen PUBLIC . react/renderer/components/RNGoogleSignInCGen)
++
++target_link_libraries(
++  react_codegen_RNGoogleSignInCGen
++  fbjni
++  jsi
++  # We need to link different libraries based on whether we are building rncore or not, that's necessary
++  # because we want to break a circular dependency between react_codegen_rncore and reactnative
++  reactnative
++)
++
++target_compile_reactnative_options(react_codegen_RNGoogleSignInCGen PRIVATE)
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/RNGoogleSignInCGen-generated.cpp b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/RNGoogleSignInCGen-generated.cpp
+new file mode 100644
+index 0000000..cff2fcd
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/RNGoogleSignInCGen-generated.cpp
+@@ -0,0 +1,98 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleJniCpp.js
++ */
++
++#include "RNGoogleSignInCGen.h"
++
++namespace facebook::react {
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_signIn(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "signIn", "(Lcom/facebook/react/bridge/ReadableMap;Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_configure(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "configure", "(Lcom/facebook/react/bridge/ReadableMap;Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_addScopes(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "addScopes", "(Lcom/facebook/react/bridge/ReadableMap;Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_playServicesAvailable(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "playServicesAvailable", "(ZLcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_signInSilently(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "signInSilently", "(Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_signOut(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "signOut", "(Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_revokeAccess(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "revokeAccess", "(Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_clearCachedAccessToken(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "clearCachedAccessToken", "(Ljava/lang/String;Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_hasPreviousSignIn(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, BooleanKind, "hasPreviousSignIn", "()Z", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_getCurrentUser(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, ObjectKind, "getCurrentUser", "()Lcom/facebook/react/bridge/WritableMap;", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_getTokens(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "getTokens", "(Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeGoogleSigninSpecJSI_getConstants(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, ObjectKind, "getConstants", "()Ljava/util/Map;", args, count, cachedMethodId);
++}
++
++NativeGoogleSigninSpecJSI::NativeGoogleSigninSpecJSI(const JavaTurboModule::InitParams &params)
++  : JavaTurboModule(params) {
++  methodMap_["signIn"] = MethodMetadata {1, __hostFunction_NativeGoogleSigninSpecJSI_signIn};
++  methodMap_["configure"] = MethodMetadata {1, __hostFunction_NativeGoogleSigninSpecJSI_configure};
++  methodMap_["addScopes"] = MethodMetadata {1, __hostFunction_NativeGoogleSigninSpecJSI_addScopes};
++  methodMap_["playServicesAvailable"] = MethodMetadata {1, __hostFunction_NativeGoogleSigninSpecJSI_playServicesAvailable};
++  methodMap_["signInSilently"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninSpecJSI_signInSilently};
++  methodMap_["signOut"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninSpecJSI_signOut};
++  methodMap_["revokeAccess"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninSpecJSI_revokeAccess};
++  methodMap_["clearCachedAccessToken"] = MethodMetadata {1, __hostFunction_NativeGoogleSigninSpecJSI_clearCachedAccessToken};
++  methodMap_["hasPreviousSignIn"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninSpecJSI_hasPreviousSignIn};
++  methodMap_["getCurrentUser"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninSpecJSI_getCurrentUser};
++  methodMap_["getTokens"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninSpecJSI_getTokens};
++  methodMap_["getConstants"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninSpecJSI_getConstants};
++}
++
++std::shared_ptr<TurboModule> RNGoogleSignInCGen_ModuleProvider(const std::string &moduleName, const JavaTurboModule::InitParams &params) {
++  if (moduleName == "RNGoogleSignin") {
++    return std::make_shared<NativeGoogleSigninSpecJSI>(params);
++  }
++  return nullptr;
++}
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/RNGoogleSignInCGen.h b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/RNGoogleSignInCGen.h
+new file mode 100644
+index 0000000..7f4f8e0
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/RNGoogleSignInCGen.h
+@@ -0,0 +1,31 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleJniH.js
++ */
++
++#pragma once
++
++#include <ReactCommon/JavaTurboModule.h>
++#include <ReactCommon/TurboModule.h>
++#include <jsi/jsi.h>
++
++namespace facebook::react {
++
++/**
++ * JNI C++ class for module 'NativeGoogleSignin'
++ */
++class JSI_EXPORT NativeGoogleSigninSpecJSI : public JavaTurboModule {
++public:
++  NativeGoogleSigninSpecJSI(const JavaTurboModule::InitParams &params);
++};
++
++
++JSI_EXPORT
++std::shared_ptr<TurboModule> RNGoogleSignInCGen_ModuleProvider(const std::string &moduleName, const JavaTurboModule::InitParams &params);
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ComponentDescriptors.cpp b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ComponentDescriptors.cpp
+new file mode 100644
+index 0000000..165ce99
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ComponentDescriptors.cpp
+@@ -0,0 +1,22 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateComponentDescriptorCpp.js
++ */
++
++#include <react/renderer/components/RNGoogleSignInCGen/ComponentDescriptors.h>
++#include <react/renderer/core/ConcreteComponentDescriptor.h>
++#include <react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h>
++
++namespace facebook::react {
++
++void RNGoogleSignInCGen_registerComponentDescriptorsFromCodegen(
++  std::shared_ptr<const ComponentDescriptorProviderRegistry> registry) {
++registry->add(concreteComponentDescriptorProvider<RNGoogleSigninButtonComponentDescriptor>());
++}
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ComponentDescriptors.h b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ComponentDescriptors.h
+new file mode 100644
+index 0000000..51cc6ff
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ComponentDescriptors.h
+@@ -0,0 +1,24 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateComponentDescriptorH.js
++ */
++
++#pragma once
++
++#include <react/renderer/components/RNGoogleSignInCGen/ShadowNodes.h>
++#include <react/renderer/core/ConcreteComponentDescriptor.h>
++#include <react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h>
++
++namespace facebook::react {
++
++using RNGoogleSigninButtonComponentDescriptor = ConcreteComponentDescriptor<RNGoogleSigninButtonShadowNode>;
++
++void RNGoogleSignInCGen_registerComponentDescriptorsFromCodegen(
++  std::shared_ptr<const ComponentDescriptorProviderRegistry> registry);
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/EventEmitters.cpp b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/EventEmitters.cpp
+new file mode 100644
+index 0000000..734c141
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/EventEmitters.cpp
+@@ -0,0 +1,24 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateEventEmitterCpp.js
++ */
++
++#include <react/renderer/components/RNGoogleSignInCGen/EventEmitters.h>
++
++
++namespace facebook::react {
++
++void RNGoogleSigninButtonEventEmitter::onPress(OnPress event) const {
++  dispatchEvent("press", [](jsi::Runtime &runtime) {
++    auto payload = jsi::Object(runtime);
++    
++    return payload;
++  });
++}
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/EventEmitters.h b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/EventEmitters.h
+new file mode 100644
+index 0000000..bfcef63
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/EventEmitters.h
+@@ -0,0 +1,25 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateEventEmitterH.js
++ */
++#pragma once
++
++#include <react/renderer/components/view/ViewEventEmitter.h>
++
++
++namespace facebook::react {
++class RNGoogleSigninButtonEventEmitter : public ViewEventEmitter {
++ public:
++  using ViewEventEmitter::ViewEventEmitter;
++
++  struct OnPress {
++      
++    };
++  void onPress(OnPress value) const;
++};
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/Props.cpp b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/Props.cpp
+new file mode 100644
+index 0000000..4c30555
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/Props.cpp
+@@ -0,0 +1,57 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GeneratePropsCpp.js
++ */
++
++#include <react/renderer/components/RNGoogleSignInCGen/Props.h>
++#include <react/renderer/core/PropsParserContext.h>
++#include <react/renderer/core/propsConversions.h>
++
++namespace facebook::react {
++
++RNGoogleSigninButtonProps::RNGoogleSigninButtonProps(
++    const PropsParserContext &context,
++    const RNGoogleSigninButtonProps &sourceProps,
++    const RawProps &rawProps): ViewProps(context, sourceProps, rawProps),
++
++    disabled(convertRawProp(context, rawProps, "disabled", sourceProps.disabled, {false})),
++    color(convertRawProp(context, rawProps, "color", sourceProps.color, {RNGoogleSigninButtonColor::Light})),
++    size(convertRawProp(context, rawProps, "size", sourceProps.size, {0})) {}
++    
++#ifdef RN_SERIALIZABLE_STATE
++ComponentName RNGoogleSigninButtonProps::getDiffPropsImplementationTarget() const {
++  return "RNGoogleSigninButton";
++}
++
++folly::dynamic RNGoogleSigninButtonProps::getDiffProps(
++    const Props* prevProps) const {
++  static const auto defaultProps = RNGoogleSigninButtonProps();
++  const RNGoogleSigninButtonProps* oldProps = prevProps == nullptr
++      ? &defaultProps
++      : static_cast<const RNGoogleSigninButtonProps*>(prevProps);
++  if (this == oldProps) {
++    return folly::dynamic::object();
++  }
++  folly::dynamic result = HostPlatformViewProps::getDiffProps(prevProps);
++  
++  if (disabled != oldProps->disabled) {
++    result["disabled"] = disabled;
++  }
++    
++  if (color != oldProps->color) {
++    result["color"] = toDynamic(color);
++  }
++    
++  if (size != oldProps->size) {
++    result["size"] = size;
++  }
++  return result;
++}
++#endif
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/Props.h b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/Props.h
+new file mode 100644
+index 0000000..bb1dee7
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/Props.h
+@@ -0,0 +1,57 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GeneratePropsH.js
++ */
++#pragma once
++
++#include <react/renderer/components/view/ViewProps.h>
++#include <react/renderer/core/PropsParserContext.h>
++
++namespace facebook::react {
++
++enum class RNGoogleSigninButtonColor { Dark, Light };
++
++static inline void fromRawValue(const PropsParserContext& context, const RawValue &value, RNGoogleSigninButtonColor &result) {
++  auto string = (std::string)value;
++  if (string == "dark") { result = RNGoogleSigninButtonColor::Dark; return; }
++  if (string == "light") { result = RNGoogleSigninButtonColor::Light; return; }
++  abort();
++}
++
++static inline std::string toString(const RNGoogleSigninButtonColor &value) {
++  switch (value) {
++    case RNGoogleSigninButtonColor::Dark: return "dark";
++    case RNGoogleSigninButtonColor::Light: return "light";
++  }
++}
++
++#ifdef RN_SERIALIZABLE_STATE
++static inline folly::dynamic toDynamic(const RNGoogleSigninButtonColor &value) {
++  return toString(value);
++}
++#endif
++
++class RNGoogleSigninButtonProps final : public ViewProps {
++ public:
++  RNGoogleSigninButtonProps() = default;
++  RNGoogleSigninButtonProps(const PropsParserContext& context, const RNGoogleSigninButtonProps &sourceProps, const RawProps &rawProps);
++
++#pragma mark - Props
++
++  bool disabled{false};
++  RNGoogleSigninButtonColor color{RNGoogleSigninButtonColor::Light};
++  int size{0};
++
++  #ifdef RN_SERIALIZABLE_STATE
++  ComponentName getDiffPropsImplementationTarget() const override;
++
++  folly::dynamic getDiffProps(const Props* prevProps) const override;
++  #endif
++};
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/RNGoogleSignInCGenJSI-generated.cpp b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/RNGoogleSignInCGenJSI-generated.cpp
+new file mode 100644
+index 0000000..1768eee
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/RNGoogleSignInCGenJSI-generated.cpp
+@@ -0,0 +1,98 @@
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleCpp.js
++ */
++
++#include "RNGoogleSignInCGenJSI.h"
++
++namespace facebook::react {
++
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_signIn(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->signIn(
++    rt,
++    count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asObject(rt)
++  );
++}
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_configure(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->configure(
++    rt,
++    count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asObject(rt)
++  );
++}
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_addScopes(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->addScopes(
++    rt,
++    count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asObject(rt)
++  );
++}
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_playServicesAvailable(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->playServicesAvailable(
++    rt,
++    count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asBool()
++  );
++}
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_signInSilently(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->signInSilently(
++    rt
++  );
++}
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_signOut(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->signOut(
++    rt
++  );
++}
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_revokeAccess(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->revokeAccess(
++    rt
++  );
++}
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_clearCachedAccessToken(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->clearCachedAccessToken(
++    rt,
++    count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asString(rt)
++  );
++}
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_hasPreviousSignIn(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->hasPreviousSignIn(
++    rt
++  );
++}
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_getCurrentUser(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  auto result = static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->getCurrentUser(
++    rt
++  );
++  return result ? jsi::Value(std::move(*result)) : jsi::Value::null();
++}
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_getTokens(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->getTokens(
++    rt
++  );
++}
++static jsi::Value __hostFunction_NativeGoogleSigninCxxSpecJSI_getConstants(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeGoogleSigninCxxSpecJSI *>(&turboModule)->getConstants(
++    rt
++  );
++}
++
++NativeGoogleSigninCxxSpecJSI::NativeGoogleSigninCxxSpecJSI(std::shared_ptr<CallInvoker> jsInvoker)
++  : TurboModule("RNGoogleSignin", jsInvoker) {
++  methodMap_["signIn"] = MethodMetadata {1, __hostFunction_NativeGoogleSigninCxxSpecJSI_signIn};
++  methodMap_["configure"] = MethodMetadata {1, __hostFunction_NativeGoogleSigninCxxSpecJSI_configure};
++  methodMap_["addScopes"] = MethodMetadata {1, __hostFunction_NativeGoogleSigninCxxSpecJSI_addScopes};
++  methodMap_["playServicesAvailable"] = MethodMetadata {1, __hostFunction_NativeGoogleSigninCxxSpecJSI_playServicesAvailable};
++  methodMap_["signInSilently"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninCxxSpecJSI_signInSilently};
++  methodMap_["signOut"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninCxxSpecJSI_signOut};
++  methodMap_["revokeAccess"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninCxxSpecJSI_revokeAccess};
++  methodMap_["clearCachedAccessToken"] = MethodMetadata {1, __hostFunction_NativeGoogleSigninCxxSpecJSI_clearCachedAccessToken};
++  methodMap_["hasPreviousSignIn"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninCxxSpecJSI_hasPreviousSignIn};
++  methodMap_["getCurrentUser"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninCxxSpecJSI_getCurrentUser};
++  methodMap_["getTokens"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninCxxSpecJSI_getTokens};
++  methodMap_["getConstants"] = MethodMetadata {0, __hostFunction_NativeGoogleSigninCxxSpecJSI_getConstants};
++}
++
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/RNGoogleSignInCGenJSI.h b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/RNGoogleSignInCGenJSI.h
+new file mode 100644
+index 0000000..34ee0e1
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/RNGoogleSignInCGenJSI.h
+@@ -0,0 +1,170 @@
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleH.js
++ */
++
++#pragma once
++
++#include <ReactCommon/TurboModule.h>
++#include <react/bridging/Bridging.h>
++
++namespace facebook::react {
++
++
++  class JSI_EXPORT NativeGoogleSigninCxxSpecJSI : public TurboModule {
++protected:
++  NativeGoogleSigninCxxSpecJSI(std::shared_ptr<CallInvoker> jsInvoker);
++
++public:
++  virtual jsi::Value signIn(jsi::Runtime &rt, jsi::Object params) = 0;
++  virtual jsi::Value configure(jsi::Runtime &rt, jsi::Object params) = 0;
++  virtual jsi::Value addScopes(jsi::Runtime &rt, jsi::Object params) = 0;
++  virtual jsi::Value playServicesAvailable(jsi::Runtime &rt, bool showPlayServicesUpdateDialog) = 0;
++  virtual jsi::Value signInSilently(jsi::Runtime &rt) = 0;
++  virtual jsi::Value signOut(jsi::Runtime &rt) = 0;
++  virtual jsi::Value revokeAccess(jsi::Runtime &rt) = 0;
++  virtual jsi::Value clearCachedAccessToken(jsi::Runtime &rt, jsi::String tokenString) = 0;
++  virtual bool hasPreviousSignIn(jsi::Runtime &rt) = 0;
++  virtual std::optional<jsi::Object> getCurrentUser(jsi::Runtime &rt) = 0;
++  virtual jsi::Value getTokens(jsi::Runtime &rt) = 0;
++  virtual jsi::Object getConstants(jsi::Runtime &rt) = 0;
++
++};
++
++template <typename T>
++class JSI_EXPORT NativeGoogleSigninCxxSpec : public TurboModule {
++public:
++  jsi::Value create(jsi::Runtime &rt, const jsi::PropNameID &propName) override {
++    return delegate_.create(rt, propName);
++  }
++
++  std::vector<jsi::PropNameID> getPropertyNames(jsi::Runtime& runtime) override {
++    return delegate_.getPropertyNames(runtime);
++  }
++
++  static constexpr std::string_view kModuleName = "RNGoogleSignin";
++
++protected:
++  NativeGoogleSigninCxxSpec(std::shared_ptr<CallInvoker> jsInvoker)
++    : TurboModule(std::string{NativeGoogleSigninCxxSpec::kModuleName}, jsInvoker),
++      delegate_(reinterpret_cast<T*>(this), jsInvoker) {}
++
++
++private:
++  class Delegate : public NativeGoogleSigninCxxSpecJSI {
++  public:
++    Delegate(T *instance, std::shared_ptr<CallInvoker> jsInvoker) :
++      NativeGoogleSigninCxxSpecJSI(std::move(jsInvoker)), instance_(instance) {
++
++    }
++
++    jsi::Value signIn(jsi::Runtime &rt, jsi::Object params) override {
++      static_assert(
++          bridging::getParameterCount(&T::signIn) == 2,
++          "Expected signIn(...) to have 2 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::signIn, jsInvoker_, instance_, std::move(params));
++    }
++    jsi::Value configure(jsi::Runtime &rt, jsi::Object params) override {
++      static_assert(
++          bridging::getParameterCount(&T::configure) == 2,
++          "Expected configure(...) to have 2 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::configure, jsInvoker_, instance_, std::move(params));
++    }
++    jsi::Value addScopes(jsi::Runtime &rt, jsi::Object params) override {
++      static_assert(
++          bridging::getParameterCount(&T::addScopes) == 2,
++          "Expected addScopes(...) to have 2 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::addScopes, jsInvoker_, instance_, std::move(params));
++    }
++    jsi::Value playServicesAvailable(jsi::Runtime &rt, bool showPlayServicesUpdateDialog) override {
++      static_assert(
++          bridging::getParameterCount(&T::playServicesAvailable) == 2,
++          "Expected playServicesAvailable(...) to have 2 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::playServicesAvailable, jsInvoker_, instance_, std::move(showPlayServicesUpdateDialog));
++    }
++    jsi::Value signInSilently(jsi::Runtime &rt) override {
++      static_assert(
++          bridging::getParameterCount(&T::signInSilently) == 1,
++          "Expected signInSilently(...) to have 1 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::signInSilently, jsInvoker_, instance_);
++    }
++    jsi::Value signOut(jsi::Runtime &rt) override {
++      static_assert(
++          bridging::getParameterCount(&T::signOut) == 1,
++          "Expected signOut(...) to have 1 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::signOut, jsInvoker_, instance_);
++    }
++    jsi::Value revokeAccess(jsi::Runtime &rt) override {
++      static_assert(
++          bridging::getParameterCount(&T::revokeAccess) == 1,
++          "Expected revokeAccess(...) to have 1 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::revokeAccess, jsInvoker_, instance_);
++    }
++    jsi::Value clearCachedAccessToken(jsi::Runtime &rt, jsi::String tokenString) override {
++      static_assert(
++          bridging::getParameterCount(&T::clearCachedAccessToken) == 2,
++          "Expected clearCachedAccessToken(...) to have 2 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::clearCachedAccessToken, jsInvoker_, instance_, std::move(tokenString));
++    }
++    bool hasPreviousSignIn(jsi::Runtime &rt) override {
++      static_assert(
++          bridging::getParameterCount(&T::hasPreviousSignIn) == 1,
++          "Expected hasPreviousSignIn(...) to have 1 parameters");
++
++      return bridging::callFromJs<bool>(
++          rt, &T::hasPreviousSignIn, jsInvoker_, instance_);
++    }
++    std::optional<jsi::Object> getCurrentUser(jsi::Runtime &rt) override {
++      static_assert(
++          bridging::getParameterCount(&T::getCurrentUser) == 1,
++          "Expected getCurrentUser(...) to have 1 parameters");
++
++      return bridging::callFromJs<std::optional<jsi::Object>>(
++          rt, &T::getCurrentUser, jsInvoker_, instance_);
++    }
++    jsi::Value getTokens(jsi::Runtime &rt) override {
++      static_assert(
++          bridging::getParameterCount(&T::getTokens) == 1,
++          "Expected getTokens(...) to have 1 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::getTokens, jsInvoker_, instance_);
++    }
++    jsi::Object getConstants(jsi::Runtime &rt) override {
++      static_assert(
++          bridging::getParameterCount(&T::getConstants) == 1,
++          "Expected getConstants(...) to have 1 parameters");
++
++      return bridging::callFromJs<jsi::Object>(
++          rt, &T::getConstants, jsInvoker_, instance_);
++    }
++
++  private:
++    friend class NativeGoogleSigninCxxSpec;
++    T *instance_;
++  };
++
++  Delegate delegate_;
++};
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ShadowNodes.cpp b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ShadowNodes.cpp
+new file mode 100644
+index 0000000..e603a8f
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ShadowNodes.cpp
+@@ -0,0 +1,17 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateShadowNodeCpp.js
++ */
++
++#include <react/renderer/components/RNGoogleSignInCGen/ShadowNodes.h>
++
++namespace facebook::react {
++
++extern const char RNGoogleSigninButtonComponentName[] = "RNGoogleSigninButton";
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ShadowNodes.h b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ShadowNodes.h
+new file mode 100644
+index 0000000..ce112bf
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ShadowNodes.h
+@@ -0,0 +1,32 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateShadowNodeH.js
++ */
++
++#pragma once
++
++#include <react/renderer/components/RNGoogleSignInCGen/EventEmitters.h>
++#include <react/renderer/components/RNGoogleSignInCGen/Props.h>
++#include <react/renderer/components/RNGoogleSignInCGen/States.h>
++#include <react/renderer/components/view/ConcreteViewShadowNode.h>
++#include <jsi/jsi.h>
++
++namespace facebook::react {
++
++JSI_EXPORT extern const char RNGoogleSigninButtonComponentName[];
++
++/*
++ * `ShadowNode` for <RNGoogleSigninButton> component.
++ */
++using RNGoogleSigninButtonShadowNode = ConcreteViewShadowNode<
++    RNGoogleSigninButtonComponentName,
++    RNGoogleSigninButtonProps,
++    RNGoogleSigninButtonEventEmitter,
++    RNGoogleSigninButtonState>;
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/States.cpp b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/States.cpp
+new file mode 100644
+index 0000000..2278d8a
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/States.cpp
+@@ -0,0 +1,16 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateStateCpp.js
++ */
++#include <react/renderer/components/RNGoogleSignInCGen/States.h>
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/States.h b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/States.h
+new file mode 100644
+index 0000000..506aeea
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/States.h
+@@ -0,0 +1,20 @@
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateStateH.js
++ */
++#pragma once
++
++#include <react/renderer/core/StateData.h>
++#ifdef RN_SERIALIZABLE_STATE
++#include <folly/dynamic.h>
++#endif
++
++namespace facebook::react {
++
++using RNGoogleSigninButtonState = StateData;
++
++} // namespace facebook::react
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/schema.json b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/schema.json
+new file mode 100644
+index 0000000..71e121f
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/schema.json
+@@ -0,0 +1 @@
++{"libraryName":"","modules":{"NativeGoogleSignin":{"type":"NativeModule","aliasMap":{},"enumMap":{},"spec":{"eventEmitters":[],"methods":[{"name":"signIn","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"PromiseTypeAnnotation","elementType":{"type":"GenericObjectTypeAnnotation"}},"params":[{"name":"params","optional":false,"typeAnnotation":{"type":"GenericObjectTypeAnnotation"}}]}},{"name":"configure","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"PromiseTypeAnnotation","elementType":{"type":"VoidTypeAnnotation"}},"params":[{"name":"params","optional":false,"typeAnnotation":{"type":"GenericObjectTypeAnnotation"}}]}},{"name":"addScopes","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"PromiseTypeAnnotation","elementType":{"type":"NullableTypeAnnotation","typeAnnotation":{"type":"GenericObjectTypeAnnotation"}}},"params":[{"name":"params","optional":false,"typeAnnotation":{"type":"GenericObjectTypeAnnotation"}}]}},{"name":"playServicesAvailable","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"PromiseTypeAnnotation","elementType":{"type":"BooleanTypeAnnotation"}},"params":[{"name":"showPlayServicesUpdateDialog","optional":false,"typeAnnotation":{"type":"BooleanTypeAnnotation"}}]}},{"name":"signInSilently","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"PromiseTypeAnnotation","elementType":{"type":"GenericObjectTypeAnnotation"}},"params":[]}},{"name":"signOut","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"PromiseTypeAnnotation","elementType":{"type":"VoidTypeAnnotation"}},"params":[]}},{"name":"revokeAccess","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"PromiseTypeAnnotation","elementType":{"type":"VoidTypeAnnotation"}},"params":[]}},{"name":"clearCachedAccessToken","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"PromiseTypeAnnotation","elementType":{"type":"VoidTypeAnnotation"}},"params":[{"name":"tokenString","optional":false,"typeAnnotation":{"type":"StringTypeAnnotation"}}]}},{"name":"hasPreviousSignIn","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"BooleanTypeAnnotation"},"params":[]}},{"name":"getCurrentUser","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"NullableTypeAnnotation","typeAnnotation":{"type":"GenericObjectTypeAnnotation"}},"params":[]}},{"name":"getTokens","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"PromiseTypeAnnotation","elementType":{"type":"VoidTypeAnnotation"}},"params":[]}},{"name":"getConstants","optional":false,"typeAnnotation":{"type":"FunctionTypeAnnotation","returnTypeAnnotation":{"type":"ObjectTypeAnnotation","properties":[{"name":"SIGN_IN_CANCELLED","optional":false,"typeAnnotation":{"type":"StringTypeAnnotation"}},{"name":"IN_PROGRESS","optional":false,"typeAnnotation":{"type":"StringTypeAnnotation"}},{"name":"PLAY_SERVICES_NOT_AVAILABLE","optional":false,"typeAnnotation":{"type":"StringTypeAnnotation"}},{"name":"SIGN_IN_REQUIRED","optional":false,"typeAnnotation":{"type":"StringTypeAnnotation"}},{"name":"SCOPES_ALREADY_GRANTED","optional":false,"typeAnnotation":{"type":"StringTypeAnnotation"}},{"name":"BUTTON_SIZE_ICON","optional":false,"typeAnnotation":{"type":"NumberTypeAnnotation"}},{"name":"BUTTON_SIZE_WIDE","optional":false,"typeAnnotation":{"type":"NumberTypeAnnotation"}},{"name":"BUTTON_SIZE_STANDARD","optional":false,"typeAnnotation":{"type":"NumberTypeAnnotation"}},{"name":"ONE_TAP_START_FAILED","optional":false,"typeAnnotation":{"type":"StringTypeAnnotation"}},{"name":"NO_SAVED_CREDENTIAL_FOUND","optional":false,"typeAnnotation":{"type":"StringTypeAnnotation"}}]},"params":[]}}]},"moduleName":"RNGoogleSignin"},"RNGoogleSigninButton":{"type":"Component","components":{"RNGoogleSigninButton":{"extendsProps":[{"type":"ReactNativeBuiltInType","knownTypeName":"ReactNativeCoreViewProps"}],"events":[{"name":"onPress","optional":true,"bubblingType":"bubble","typeAnnotation":{"type":"EventTypeAnnotation","argument":{"type":"ObjectTypeAnnotation","properties":[]}}}],"props":[{"name":"disabled","optional":true,"typeAnnotation":{"type":"BooleanTypeAnnotation","default":false}},{"name":"color","optional":true,"typeAnnotation":{"type":"StringEnumTypeAnnotation","default":"light","options":["dark","light"]}},{"name":"size","optional":false,"typeAnnotation":{"type":"Int32TypeAnnotation","default":0}}],"commands":[]}}}}}
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..f4b9354
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.reactnativegooglesignin" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+new file mode 100644
+index 0000000..4c68df3
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "com.reactnativegooglesignin",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+new file mode 100644
+index 0000000..1211b1e
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+@@ -0,0 +1,6 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
++coreLibraryDesugaringEnabled=false
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar
+new file mode 100644
+index 0000000..f711a0b
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar
+new file mode 100644
+index 0000000..0b52294
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..f6acf08
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Thu May 07 14:30:12 CST 2026
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..ba5a2ee
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/mergeDebugAssets/merger.xml b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/mergeDebugAssets/merger.xml
+new file mode 100644
+index 0000000..10a7103
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/mergeDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/node_modules/@react-native-google-signin/google-signin/android/src/main/assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/node_modules/@react-native-google-signin/google-signin/android/src/debug/assets"/></dataSet><dataSet config="generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/shader_assets/debug/compileDebugShaders/out"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+new file mode 100644
+index 0000000..fc94e1e
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/node_modules/@react-native-google-signin/google-signin/android/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/node_modules/@react-native-google-signin/google-signin/android/src/debug/jniLibs"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/mergeDebugShaders/merger.xml b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+new file mode 100644
+index 0000000..edb8362
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/node_modules/@react-native-google-signin/google-signin/android/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barretlin/GitProjects/Cloud-password/node_modules/@react-native-google-signin/google-signin/android/src/debug/shaders"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/java_res/debug/processDebugJavaRes/out/META-INF/react-native-google-signin_google-signin_debug.kotlin_module b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/java_res/debug/processDebugJavaRes/out/META-INF/react-native-google-signin_google-signin_debug.kotlin_module
+new file mode 100644
+index 0000000..9dbc290
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/java_res/debug/processDebugJavaRes/out/META-INF/react-native-google-signin_google-signin_debug.kotlin_module differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.class
+new file mode 100644
+index 0000000..06893f8
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.class
+new file mode 100644
+index 0000000..6ceed51
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/BuildConfig.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/BuildConfig.class
+new file mode 100644
+index 0000000..5faa97c
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/BuildConfig.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/NativeGoogleSigninSpec.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/NativeGoogleSigninSpec.class
+new file mode 100644
+index 0000000..98b4903
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/NativeGoogleSigninSpec.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/PendingAuthRecovery.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/PendingAuthRecovery.class
+new file mode 100644
+index 0000000..e16f392
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/PendingAuthRecovery.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/PromiseWrapper.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/PromiseWrapper.class
+new file mode 100644
+index 0000000..d390491
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/PromiseWrapper.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninButtonManagerDelegate.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninButtonManagerDelegate.class
+new file mode 100644
+index 0000000..db456a3
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninButtonManagerDelegate.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninButtonManagerInterface.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninButtonManagerInterface.class
+new file mode 100644
+index 0000000..eaf8899
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninButtonManagerInterface.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninButtonViewManager.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninButtonViewManager.class
+new file mode 100644
+index 0000000..57b3489
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninButtonViewManager.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule$AccessTokenRetrievalTask.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule$AccessTokenRetrievalTask.class
+new file mode 100644
+index 0000000..33c25ef
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule$AccessTokenRetrievalTask.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule$RNGoogleSigninActivityEventListener.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule$RNGoogleSigninActivityEventListener.class
+new file mode 100644
+index 0000000..2f40e90
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule$RNGoogleSigninActivityEventListener.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule$TokenClearingTask.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule$TokenClearingTask.class
+new file mode 100644
+index 0000000..746cb4b
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule$TokenClearingTask.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule.class
+new file mode 100644
+index 0000000..df1117b
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninModule.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninPackage.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninPackage.class
+new file mode 100644
+index 0000000..22e95a1
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/RNGoogleSigninPackage.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/SigninButtonEvent.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/SigninButtonEvent.class
+new file mode 100644
+index 0000000..face723
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/SigninButtonEvent.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/Utils.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/Utils.class
+new file mode 100644
+index 0000000..01c4b9c
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativegooglesignin/Utils.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..c3a86eb
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,7 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="com.reactnativegooglesignin" >
++4
++5    <uses-sdk android:minSdkVersion="24" />
++6
++7</manifest>
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+new file mode 100644
+index 0000000..f4b9354
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.reactnativegooglesignin" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+new file mode 100644
+index 0000000..08f4ebe
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+@@ -0,0 +1 @@
++0 Warning/Error
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/META-INF/react-native-google-signin_google-signin_debug.kotlin_module b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/META-INF/react-native-google-signin_google-signin_debug.kotlin_module
+new file mode 100644
+index 0000000..9dbc290
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/META-INF/react-native-google-signin_google-signin_debug.kotlin_module differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.class
+new file mode 100644
+index 0000000..06893f8
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerDelegate.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.class
+new file mode 100644
+index 0000000..6ceed51
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/facebook/react/viewmanagers/RNGoogleSigninButtonManagerInterface.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/BuildConfig.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/BuildConfig.class
+new file mode 100644
+index 0000000..5faa97c
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/BuildConfig.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/ErrorDto.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/ErrorDto.class
+new file mode 100644
+index 0000000..a394785
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/ErrorDto.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/NativeGoogleSigninSpec.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/NativeGoogleSigninSpec.class
+new file mode 100644
+index 0000000..98b4903
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/NativeGoogleSigninSpec.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/PendingAuthRecovery.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/PendingAuthRecovery.class
+new file mode 100644
+index 0000000..e16f392
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/PendingAuthRecovery.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/PromiseWrapper.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/PromiseWrapper.class
+new file mode 100644
+index 0000000..d390491
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/PromiseWrapper.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninButtonManagerDelegate.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninButtonManagerDelegate.class
+new file mode 100644
+index 0000000..db456a3
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninButtonManagerDelegate.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninButtonManagerInterface.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninButtonManagerInterface.class
+new file mode 100644
+index 0000000..eaf8899
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninButtonManagerInterface.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninButtonViewManager.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninButtonViewManager.class
+new file mode 100644
+index 0000000..57b3489
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninButtonViewManager.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule$AccessTokenRetrievalTask.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule$AccessTokenRetrievalTask.class
+new file mode 100644
+index 0000000..33c25ef
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule$AccessTokenRetrievalTask.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule$RNGoogleSigninActivityEventListener.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule$RNGoogleSigninActivityEventListener.class
+new file mode 100644
+index 0000000..2f40e90
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule$RNGoogleSigninActivityEventListener.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule$TokenClearingTask.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule$TokenClearingTask.class
+new file mode 100644
+index 0000000..746cb4b
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule$TokenClearingTask.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule.class
+new file mode 100644
+index 0000000..df1117b
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninModule.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninPackage.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninPackage.class
+new file mode 100644
+index 0000000..22e95a1
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/RNGoogleSigninPackage.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/SigninButtonEvent.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/SigninButtonEvent.class
+new file mode 100644
+index 0000000..face723
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/SigninButtonEvent.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/Utils.class b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/Utils.class
+new file mode 100644
+index 0000000..01c4b9c
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativegooglesignin/Utils.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar
+new file mode 100644
+index 0000000..f6cd81f
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+new file mode 100644
+index 0000000..85c03cb
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+@@ -0,0 +1 @@
++com.reactnativegooglesignin
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab
+new file mode 100644
+index 0000000..bdf584a
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream
+new file mode 100644
+index 0000000..e4a43a3
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len
+new file mode 100644
+index 0000000..6458c21
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len
+new file mode 100644
+index 0000000..2a17e6e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at
+new file mode 100644
+index 0000000..f1c10db
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i
+new file mode 100644
+index 0000000..e8c9cc6
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab
+new file mode 100644
+index 0000000..bdf584a
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream
+new file mode 100644
+index 0000000..930ed87
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len
+new file mode 100644
+index 0000000..066dfb4
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len
+new file mode 100644
+index 0000000..2a17e6e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at
+new file mode 100644
+index 0000000..53b2d29
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i
+new file mode 100644
+index 0000000..d2f3f5e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab
+new file mode 100644
+index 0000000..bdf584a
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream
+new file mode 100644
+index 0000000..930ed87
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len
+new file mode 100644
+index 0000000..066dfb4
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len
+new file mode 100644
+index 0000000..2a17e6e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at
+new file mode 100644
+index 0000000..628a75b
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i
+new file mode 100644
+index 0000000..d2f3f5e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab
+new file mode 100644
+index 0000000..bdf584a
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream
+new file mode 100644
+index 0000000..56cb968
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len
+new file mode 100644
+index 0000000..066dfb4
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len
+new file mode 100644
+index 0000000..2a17e6e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at
+new file mode 100644
+index 0000000..628a75b
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i
+new file mode 100644
+index 0000000..2c893a3
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab
+new file mode 100644
+index 0000000..5ab8ee3
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream
+new file mode 100644
+index 0000000..8548f09
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len
+new file mode 100644
+index 0000000..2370ff8
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len
+new file mode 100644
+index 0000000..01bdaa1
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at
+new file mode 100644
+index 0000000..2c8628d
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i
+new file mode 100644
+index 0000000..024fc17
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab
+new file mode 100644
+index 0000000..bdf584a
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream
+new file mode 100644
+index 0000000..e4a43a3
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len
+new file mode 100644
+index 0000000..6458c21
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len
+new file mode 100644
+index 0000000..2a17e6e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at
+new file mode 100644
+index 0000000..cab3e84
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i
+new file mode 100644
+index 0000000..e8c9cc6
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab
+new file mode 100644
+index 0000000..166c057
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab
+@@ -0,0 +1,2 @@
++1
++0
+\ No newline at end of file
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab
+new file mode 100644
+index 0000000..bdf584a
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream
+new file mode 100644
+index 0000000..e4a43a3
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len
+new file mode 100644
+index 0000000..6458c21
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len
+new file mode 100644
+index 0000000..2a17e6e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at
+new file mode 100644
+index 0000000..5875372
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i
+new file mode 100644
+index 0000000..e8c9cc6
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab
+new file mode 100644
+index 0000000..8aad32b
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream
+new file mode 100644
+index 0000000..08e7df1
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len
+new file mode 100644
+index 0000000..b7da01d
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len
+new file mode 100644
+index 0000000..2a17e6e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at
+new file mode 100644
+index 0000000..f2016f0
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len
+new file mode 100644
+index 0000000..1b1cb4d
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab
+new file mode 100644
+index 0000000..d2ffce6
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream
+new file mode 100644
+index 0000000..19af815
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len
+new file mode 100644
+index 0000000..6e107e2
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len
+new file mode 100644
+index 0000000..c580238
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at
+new file mode 100644
+index 0000000..677aa4e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i
+new file mode 100644
+index 0000000..4d9dd13
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/last-build.bin b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/last-build.bin
+new file mode 100644
+index 0000000..974797e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/cacheable/last-build.bin differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin
+new file mode 100644
+index 0000000..e2fdc3e
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/@react-native-google-signin/google-signin/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..7822461
+--- /dev/null
++++ b/node_modules/@react-native-google-signin/google-signin/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,17 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/AndroidManifest.xml:1:1-4:12
++INJECTED from /Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/AndroidManifest.xml:1:1-4:12
++	package
++		ADDED from /Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/AndroidManifest.xml:2:11-48
++		INJECTED from /Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/AndroidManifest.xml:1:11-69
++uses-sdk
++INJECTED from /Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/AndroidManifest.xml
++INJECTED from /Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/barretlin/GitProjects/Cloud-password/apps/mobile/node_modules/@react-native-google-signin/google-signin/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/@react-native-google-signin/google-signin/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..7a6c4de
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/tmp/kotlin-classes/debug/META-INF/react-native-google-signin_google-signin_debug.kotlin_module b/node_modules/@react-native-google-signin/google-signin/android/build/tmp/kotlin-classes/debug/META-INF/react-native-google-signin_google-signin_debug.kotlin_module
+new file mode 100644
+index 0000000..9dbc290
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/tmp/kotlin-classes/debug/META-INF/react-native-google-signin_google-signin_debug.kotlin_module differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/android/build/tmp/kotlin-classes/debug/com/reactnativegooglesignin/ErrorDto.class b/node_modules/@react-native-google-signin/google-signin/android/build/tmp/kotlin-classes/debug/com/reactnativegooglesignin/ErrorDto.class
+new file mode 100644
+index 0000000..a394785
+Binary files /dev/null and b/node_modules/@react-native-google-signin/google-signin/android/build/tmp/kotlin-classes/debug/com/reactnativegooglesignin/ErrorDto.class differ
+diff --git a/node_modules/@react-native-google-signin/google-signin/ios/RNGoogleSignin.mm b/node_modules/@react-native-google-signin/google-signin/ios/RNGoogleSignin.mm
+index c56cac8..efb954a 100644
+--- a/node_modules/@react-native-google-signin/google-signin/ios/RNGoogleSignin.mm
++++ b/node_modules/@react-native-google-signin/google-signin/ios/RNGoogleSignin.mm
+@@ -267,6 +267,7 @@ - (NSDictionary*)createUserDictionary: (nullable GIDGoogleUser *) user serverAut
+   NSDictionary *params = @{
+                            @"user": userInfo,
+                            @"idToken": user.idToken.tokenString,
++                           @"accessToken": user.accessToken.tokenString,
+                            @"serverAuthCode": RCTNullIfNil(serverAuthCode),
+                            @"scopes": user.grantedScopes,
+                            };

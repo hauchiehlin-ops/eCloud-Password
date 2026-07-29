@@ -1,0 +1,24 @@
+{
+  "project_name": "Cloud-password",
+  "version": "1.0.0",
+  "pac_enabled": true,
+  "critical_paths": [
+    "src/crypto",
+    "src/auth",
+    ".env"
+  ],
+  "ignore_paths": [
+    "node_modules",
+    "dist",
+    ".git"
+  ],
+  "circuit_breaker": {
+    "max_iterations": 5,
+    "max_files_per_patch": 10,
+    "max_modules_impacted": 3
+  },
+  "monitoring": {
+    "auto_lint": true,
+    "auto_test": false
+  }
+}

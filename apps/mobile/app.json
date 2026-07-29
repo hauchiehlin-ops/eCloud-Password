@@ -1,0 +1,81 @@
+{
+  "expo": {
+    "name": "Cloud Password",
+    "slug": "cloud-password",
+    "version": "4.1.3",
+    "entryPoint": "./index.ts",
+    "jsEngine": "hermes",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "cloudpassword",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A1A1A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.drbarret.privatevault",
+      "buildNumber": "33",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "entitlements": {
+        "keychain-access-groups": [
+          "$(AppIdentifierPrefix)com.drbarret.privatevault",
+          "$(AppIdentifierPrefix)com.drbarret.privatevault"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1A1A1A"
+      },
+      "package": "com.drbarret.privatevault",
+      "versionCode": 33,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-secure-store",
+        {
+          "faceIDPermission": "Allow PrivateVault to use Face ID to unlock your vault."
+        }
+      ],
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosClientId": "39865597076-qeun10r8fooabrf6vs7buac4l3ti1nrm.apps.googleusercontent.com",
+          "iosUrlScheme": "com.googleusercontent.apps.39865597076-qeun10r8fooabrf6vs7buac4l3ti1nrm"
+        }
+      ],
+      "./plugins/withAutofill.js"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a4388cdc-c16b-4156-8dd5-e9332148a8b7",
+        "build": {
+          "experimental": {
+            "ios": {
+              "appExtensions": [
+                {
+                  "targetName": "CredentialProvider",
+                  "bundleIdentifier": "com.drbarret.privatevault.CredentialProvider"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/a4388cdc-c16b-4156-8dd5-e9332148a8b7"
+    }
+  }
+}
