@@ -9,6 +9,10 @@ public class AppDelegate: ExpoAppDelegate {
   var reactNativeDelegate: ExpoReactNativeFactoryDelegate?
   var reactNativeFactory: RCTReactNativeFactory?
 
+  // Kept so SceneDelegate can hand the original launch options to React Native,
+  // which now starts once the first scene connects rather than here.
+  var launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+
   public override func application(
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
@@ -19,15 +23,12 @@ public class AppDelegate: ExpoAppDelegate {
 
     reactNativeDelegate = delegate
     reactNativeFactory = factory
+    self.launchOptions = launchOptions
     bindReactNativeFactory(factory)
 
-#if os(iOS) || os(tvOS)
-    window = UIWindow(frame: UIScreen.main.bounds)
-    factory.startReactNative(
-      withModuleName: "main",
-      in: window,
-      launchOptions: launchOptions)
-#endif
+    // The window is created in SceneDelegate.scene(_:willConnectTo:options:).
+    // Builds linked against the iOS 27 SDK must adopt the UIScene life cycle;
+    // creating the window here makes UIKit trap the process at launch.
 
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
@@ -49,6 +50,57 @@ public class AppDelegate: ExpoAppDelegate {
   ) -> Bool {
     let result = RCTLinkingManager.application(application, continue: userActivity, restorationHandler: restorationHandler)
     return super.application(application, continue: userActivity, restorationHandler: restorationHandler) || result
+  }
+}
+
+public class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+  public var window: UIWindow?
+
+  public func scene(
+    _ scene: UIScene,
+    willConnectTo session: UISceneSession,
+    options connectionOptions: UIScene.ConnectionOptions
+  ) {
+    guard let windowScene = scene as? UIWindowScene,
+          let appDelegate = UIApplication.shared.delegate as? AppDelegate,
+          let factory = appDelegate.reactNativeFactory else {
+      return
+    }
+
+    let window = UIWindow(windowScene: windowScene)
+    self.window = window
+    // React Native and some native modules still read `window` off the app delegate.
+    appDelegate.window = window
+
+    factory.startReactNative(
+      withModuleName: "main",
+      in: window,
+      launchOptions: appDelegate.launchOptions)
+
+    // On a cold launch the opening URL or user activity arrives here instead of
+    // through the UIApplicationDelegate callbacks, so replay it into them.
+    for context in connectionOptions.urlContexts {
+      _ = appDelegate.application(UIApplication.shared, open: context.url, options: [:])
+    }
+    for activity in connectionOptions.userActivities {
+      _ = appDelegate.application(UIApplication.shared, continue: activity, restorationHandler: { _ in })
+    }
+  }
+
+  public func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+    guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+      return
+    }
+    for context in URLContexts {
+      _ = appDelegate.application(UIApplication.shared, open: context.url, options: [:])
+    }
+  }
+
+  public func scene(_ scene: UIScene, continue userActivity: NSUserActivity) {
+    guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+      return
+    }
+    _ = appDelegate.application(UIApplication.shared, continue: userActivity, restorationHandler: { _ in })
   }
 }
 

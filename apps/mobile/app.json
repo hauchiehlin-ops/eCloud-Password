@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Cloud Password",
+    "name": "eCloud Password",
     "slug": "cloud-password",
-    "version": "4.1.3",
+    "version": "5.1.0",
     "entryPoint": "./index.ts",
     "jsEngine": "hermes",
     "orientation": "portrait",
@@ -18,7 +18,7 @@
       "supportsTablet": false,
       "requireFullScreen": true,
       "bundleIdentifier": "com.drbarret.privatevault",
-      "buildNumber": "33",
+      "buildNumber": "51",
       "config": {
         "usesNonExemptEncryption": false
       },
@@ -31,10 +31,11 @@
     },
     "android": {
       "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1A1A1A"
       },
       "package": "com.drbarret.privatevault",
-      "versionCode": 33,
+      "versionCode": 45,
       "permissions": []
     },
     "web": {
@@ -65,7 +66,7 @@
               "appExtensions": [
                 {
                   "targetName": "CredentialProvider",
-                  "bundleIdentifier": "com.drbarret.privatevault.CredentialProvider"
+                  "bundleIdentifier": "com.drbarret.privatevault.autofillprovider"
                 }
               ]
             }
@@ -75,6 +76,7 @@
     },
     "runtimeVersion": "1.0.0",
     "updates": {
+      "enabled": false,
       "url": "https://u.expo.dev/a4388cdc-c16b-4156-8dd5-e9332148a8b7"
     }
   }

@@ -17,8 +17,14 @@ module.exports = function addIosExtension(projectRoot) {
                 return reject(err);
             }
             
-            const targetName = 'CredentialProvider';
-            const bundleId = 'com.drbarret.privatevault.CredentialProvider';
+	            const targetName = 'CredentialProvider';
+	            const bundleId = 'com.drbarret.privatevault.autofillprovider';
+	            const appConfigPath = path.join(projectRoot, 'app.json');
+	            const appConfig = fs.existsSync(appConfigPath)
+	                ? JSON.parse(fs.readFileSync(appConfigPath, 'utf8')).expo
+	                : {};
+	            const marketingVersion = appConfig.version || '1.0';
+	            const currentProjectVersion = appConfig.ios?.buildNumber || '1';
             
             // Check if target already exists
             const nativeTargets = myProj.pbxNativeTargetSection();
@@ -79,10 +85,10 @@ module.exports = function addIosExtension(projectRoot) {
                             config.buildSettings.IPHONEOS_DEPLOYMENT_TARGET = '15.1';
                             config.buildSettings.CODE_SIGN_STYLE = 'Automatic';
                             config.buildSettings.SWIFT_VERSION = '5.0';
-                            config.buildSettings.TARGETED_DEVICE_FAMILY = '"1,2"';
-                            config.buildSettings.GENERATE_INFOPLIST_FILE = 'YES';
-                            config.buildSettings.MARKETING_VERSION = '"1.0"';
-                            config.buildSettings.CURRENT_PROJECT_VERSION = '"1"';
+	                            config.buildSettings.TARGETED_DEVICE_FAMILY = '1';
+	                            config.buildSettings.GENERATE_INFOPLIST_FILE = 'YES';
+	                            config.buildSettings.MARKETING_VERSION = marketingVersion;
+	                            config.buildSettings.CURRENT_PROJECT_VERSION = currentProjectVersion;
                         }
                     }
                 }
@@ -126,10 +132,10 @@ module.exports = function addIosExtension(projectRoot) {
                         config.buildSettings.IPHONEOS_DEPLOYMENT_TARGET = '15.1';
                         config.buildSettings.CODE_SIGN_STYLE = 'Automatic';
                         config.buildSettings.SWIFT_VERSION = '5.0';
-                        config.buildSettings.TARGETED_DEVICE_FAMILY = '"1,2"';
-                        config.buildSettings.GENERATE_INFOPLIST_FILE = 'YES';
-                        config.buildSettings.MARKETING_VERSION = '"1.0"';
-                        config.buildSettings.CURRENT_PROJECT_VERSION = '"1"';
+	                        config.buildSettings.TARGETED_DEVICE_FAMILY = '1';
+	                        config.buildSettings.GENERATE_INFOPLIST_FILE = 'YES';
+	                        config.buildSettings.MARKETING_VERSION = marketingVersion;
+	                        config.buildSettings.CURRENT_PROJECT_VERSION = currentProjectVersion;
                     }
                 }
             }

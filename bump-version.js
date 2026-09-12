@@ -17,9 +17,31 @@ if (!appJson.expo) {
   process.exit(1);
 }
 
+// app.json 可能落後於原生檔（例如原生檔被手動改過），若只看 app.json 會算出比已送審版本更小的
+// build number，App Store Connect 會直接拒收。因此一律取 app.json 與原生檔的最大值再遞增。
+const readNativeBuildNumber = () => {
+  const p = path.join(__dirname, 'apps', 'mobile', 'ios', 'CloudPassword', 'Info.plist');
+  if (!fs.existsSync(p)) return 0;
+  const m = fs.readFileSync(p, 'utf8').match(/<key>CFBundleVersion<\/key>\s*<string>(\d+)<\/string>/);
+  return m ? parseInt(m[1], 10) : 0;
+};
+
+const readNativeVersionCode = () => {
+  const p = path.join(__dirname, 'apps', 'mobile', 'android', 'app', 'build.gradle');
+  if (!fs.existsSync(p)) return 0;
+  const m = fs.readFileSync(p, 'utf8').match(/versionCode\s+(\d+)/);
+  return m ? parseInt(m[1], 10) : 0;
+};
+
 const oldVersion = appJson.expo.version || '1.0.0';
-const oldBuildNumber = parseInt(appJson.expo.ios?.buildNumber || '1', 10);
-const oldVersionCode = parseInt(appJson.expo.android?.versionCode || 1, 10);
+const oldBuildNumber = Math.max(
+  parseInt(appJson.expo.ios?.buildNumber || '1', 10) || 0,
+  readNativeBuildNumber()
+);
+const oldVersionCode = Math.max(
+  parseInt(appJson.expo.android?.versionCode || 1, 10) || 0,
+  readNativeVersionCode()
+);
 
 // 計算新的 Build Number 與 Version Code (自動遞增 1)
 const newBuildNumber = oldBuildNumber + 1;
@@ -79,9 +101,14 @@ console.log(`iOS Build (buildNumber): ${oldBuildNumber} -> ${newBuildNumber}`);
 console.log(`Android Code (versionCode): ${oldVersionCode} -> ${newVersionCode}`);
 console.log('====================');
 
-// 2. [PAC 原生同步]：同步修正 iOS 原生專案設定 (Info.plist)
-const plistPath = path.join(__dirname, 'apps', 'mobile', 'ios', 'CloudPassword', 'Info.plist');
-if (fs.existsSync(plistPath)) {
+// 2. [PAC 原生同步]：同步修正 iOS 原生專案設定 (主 App + Extension Info.plist)
+const iosPlistPaths = [
+  path.join(__dirname, 'apps', 'mobile', 'ios', 'CloudPassword', 'Info.plist'),
+  path.join(__dirname, 'apps', 'mobile', 'ios', 'CredentialProvider', 'Info.plist'),
+];
+
+for (const plistPath of iosPlistPaths) {
+  if (!fs.existsSync(plistPath)) continue;
   let plistContent = fs.readFileSync(plistPath, 'utf8');
   // 替換 CFBundleShortVersionString 對外版本號
   plistContent = plistContent.replace(
@@ -94,7 +121,18 @@ if (fs.existsSync(plistPath)) {
     `$1${newBuildNumber}$3`
   );
   fs.writeFileSync(plistPath, plistContent, 'utf8');
-  console.log(`[iOS Sync] Info.plist 已成功同步更新為: ${newVersion} (${newBuildNumber})`);
+  console.log(`[iOS Sync] ${path.relative(__dirname, plistPath)} 已成功同步更新為: ${newVersion} (${newBuildNumber})`);
+}
+
+// 2b. [PAC 原生同步]：同步 Xcode build settings，避免 Extension archive 使用舊版 MARKETING_VERSION/CURRENT_PROJECT_VERSION 覆蓋 Info.plist
+const xcodeProjectPath = path.join(__dirname, 'apps', 'mobile', 'ios', 'CloudPassword.xcodeproj', 'project.pbxproj');
+if (fs.existsSync(xcodeProjectPath)) {
+  let projectContent = fs.readFileSync(xcodeProjectPath, 'utf8');
+  projectContent = projectContent.replace(/CURRENT_PROJECT_VERSION = [^;]+;/g, `CURRENT_PROJECT_VERSION = ${newBuildNumber};`);
+  projectContent = projectContent.replace(/MARKETING_VERSION = [^;]+;/g, `MARKETING_VERSION = ${newVersion};`);
+  projectContent = projectContent.replace(/"MARKETING_VERSION\[sdk=iphoneos\*\]" = [^;]+;/g, `"MARKETING_VERSION[sdk=iphoneos*]" = ${newVersion};`);
+  fs.writeFileSync(xcodeProjectPath, projectContent, 'utf8');
+  console.log(`[iOS Sync] Xcode project build settings 已成功同步更新為: ${newVersion} (${newBuildNumber})`);
 }
 
 // 3. [PAC 原生同步]：同步修正 Android 原生專案設定 (build.gradle)
